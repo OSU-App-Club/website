@@ -1,0 +1,206 @@
+---
+import Confetti from "@/components/confetti-button";
+import { buttonVariants } from "@/components/ui/button";
+import { siteConfig } from "@/config/site";
+import MainLayout from "@/layouts/main-layout.astro";
+import { cn } from "@/lib/utils";
+import Icon from "astro-icon";
+import { Image } from "astro:assets";
+import teamImage from "/public/team-pic.jpg";
+---
+
+<MainLayout title="Astronomy">
+  <section class="space-y-6 pt-10 lg:py-12 min-h-screen">
+    <div
+      class="container flex max-w-[64rem] flex-col items-center gap-12 text-center"
+    >
+      <Confetti client:load>
+        <a
+          href="https://discord.gg/eae2rdQDPA"
+          class={cn(buttonVariants({ variant: "outline", size: "sm" }))}
+          target="_blank"
+        >
+          Join our Discord! <Icon
+            name="ic:baseline-discord"
+            class="ml-2 size-4"
+          />
+        </a>
+      </Confetti>
+
+      <h1
+        class="font-heading text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl !leading-[1.1] text-balance"
+      >
+        <span class="text-gradient_blaze-orange"> App Development Club</span>
+        <br />
+        Oregon State University
+      </h1>
+
+      <p
+        class="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 text-balance"
+      >
+        Founded in 2015, we remain the best place on campus to learn, build, and
+        share your projects with a student developer community.
+      </p>
+
+      <div class="flex justify-center space-x-2 md:space-x-4">
+        <a href="/blog" class={cn(buttonVariants({ size: "lg" }))}> Our Blog</a>
+        <a
+          href={siteConfig.links.github}
+          target="_blank"
+          rel="noreferrer"
+          class={cn(buttonVariants({ variant: "outline", size: "lg" }), "px-4")}
+        >
+          <Icon name="github" class="mr-2 size-5" />
+          Github
+        </a>
+      </div>
+
+      <div class="flex flex-col items-center space-y-4">
+        <Image
+          src={teamImage}
+          alt="App Development Club Team Photo"
+          class="object-cover rounded-lg w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px]"
+        />
+      </div>
+    </div>
+
+    <section
+      id="features"
+      class="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24"
+    >
+      <div
+        class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center"
+      >
+        <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+          What We Do
+        </h2>
+        <p
+          class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 balance-text"
+        >
+          Each week, we meet in the Learning Innovation Center (LINC) to work on
+          projects, learn new technologies, and share our knowledge with each
+          other.
+        </p>
+      </div>
+      <div
+        class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3"
+      >
+        <div
+          class="relative overflow-hidden rounded-lg border bg-background p-2"
+        >
+          <div class="flex h-[180px] flex-col justify-between rounded-md p-5">
+            <Icon name="carbon:construction" class="self-start mb-3" />
+            <div class="space-y-2">
+              <h3 class="font-bold">Build Projects</h3>
+              <p class="text-sm text-muted-foreground">
+                We build a variety of software projects as a club to promote
+                collaboration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-lg border bg-background p-2"
+        >
+          <div class="flex h-[180px] flex-col justify-between rounded-md p-5">
+            <Icon name="uil:react" class="self-start mb-3" />
+            <div class="space-y-2">
+              <h3 class="font-bold">Learn Technologies</h3>
+              <p class="text-sm text-muted-foreground">
+                We learn many new technologies and tools to build our quaterly
+                projects with.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-lg border bg-background p-2"
+        >
+          <div class="flex h-[180px] flex-col justify-between rounded-md p-5">
+            <Icon name="grommet-icons:workshop" class="self-start mb-4" />
+            <div class="space-y-2">
+              <h3 class="font-bold">Share Knowledge</h3>
+              <p class="text-sm text-muted-foreground">
+                We foster active knowledge sharing through workshops and
+                presentations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-lg border bg-background p-2"
+        >
+          <div class="flex h-[180px] flex-col justify-between rounded-md p-5">
+            <Icon name="mdi:github" class="self-start mb-3" />
+            <div class="space-y-2">
+              <h3 class="font-bold">Contribute to Open Source</h3>
+              <p class="text-sm text-muted-foreground mt-3">
+                We contribute to open source projects and build our own open
+                source projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-lg border bg-background p-2"
+        >
+          <div class="flex h-[180px] flex-col justify-between rounded-md p-5">
+            <Icon name="clarity:group-line" class="self-start mb-3" />
+            <div class="space-y-2">
+              <h3 class="font-bold">Host Events</h3>
+              <p class="text-sm text-muted-foreground">
+                We host hackathons, workshops, and other events to bring members
+                together.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative overflow-hidden rounded-lg border bg-background p-2"
+        >
+          <div class="flex h-[180px] flex-col justify-between rounded-md p-5">
+            <Icon name="mdi:talk" class="self-start mb-3" />
+            <div class="space-y-2">
+              <h3 class="font-bold">Career Development</h3>
+              <p class="text-sm text-muted-foreground">
+                We hold interview prep workshops to help our members during the
+                job search.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mx-auto text-center md:max-w-[58rem]">
+        <p
+          class="leading-normal text-muted-foreground sm:text-lg sm:leading-7 balance-text"
+        >
+          At our club's core, we are a community of students who are passionate
+          about software development.
+        </p>
+      </div>
+    </section>
+    <section id="open-source" class="container py-8 md:py-12 lg:py-28">
+      <div
+        class="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center"
+      >
+        <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+          Join The Community
+        </h2>
+        <p
+          class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+        >
+          The easiest way to join our club is sign up on OSU&apos;s
+          <a
+            href="https://apps.ideal-logic.com/osusli"
+            target="_blank"
+            rel="noreferrer"
+            class="underline underline-offset-4"
+          >
+            Ideallogic
+          </a>
+          .
+        </p>
+      </div>
+    </section>
+  </section>
+</MainLayout>

@@ -15,7 +15,6 @@ import { cn } from "@/lib/utils";
 import type { MenuItem } from "@/types";
 
 const infos = navMenuConfig.infosNav[0];
-const examples = navMenuConfig.examplesNav[0];
 
 export function MainNavigationMenu() {
   return (
@@ -28,29 +27,20 @@ export function MainNavigationMenu() {
               <li className="row-span-3">
                 <a
                   className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                  href="/"
+                  href="/blog"
                 >
-                  <Icons.logo className="size-8" />
-                  <div className="mb-2 mt-3 text-lg font-medium">Astronomy</div>
+                  <Icons.beaver className="size-10" />
+                  <div className="mb-2 mt-3 text-lg font-medium text-gradient_blaze-orange">
+                    Blog
+                  </div>
                   <p className="text-sm leading-tight text-muted-foreground">
-                    Modern application with differents sections examples built
-                    using shadcn/ui.
+                    The most active OSU Computer Science blog. Includes articles
+                    about our projects, events, and more.
                   </p>
                 </a>
               </li>
               {infos.items?.map((info) => (
                 <ListItem key={info.title} {...info} />
-              ))}
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>{examples.title}</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {examples.items?.map((example) => (
-                <ListItem key={example.title} {...example} />
               ))}
             </ul>
           </NavigationMenuContent>
@@ -94,7 +84,7 @@ const ListItem: React.FC<MenuItem> = ({
             : ""
         )}
       >
-        <div className="text-sm font-medium leading-none">
+        <div className="text-sm font-medium leading-none text-gradient_blaze-orange">
           <span className="mr-2">{title}</span>
           {disabled ? (
             <Badge

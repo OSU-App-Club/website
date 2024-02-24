@@ -6,6 +6,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { siteConfig } from "@/config/site";
 import { Icons } from "@/icons";
 import type { MainNavItem, SidebarNavItem } from "@/types";
+import { ThemeToggle } from "../theme-toggle";
 
 interface SheetMobileProps {
   mainNavItems?: MainNavItem[];
@@ -43,10 +44,11 @@ export function SheetMobileNav({
       </SheetTrigger>
       <SheetContent side="left" className="pr-0">
         <a href="/" className="flex items-center">
-          <Icons.logo className="mr-2 size-8" />
-          <span className="font-bold">{siteConfig.name}</span>
+          <Icons.beaver className="mr-2 size-6" />
+          <span className="font-bold">{siteConfig.displayName}</span>
         </a>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-10">
+          <ThemeToggle />
           <div className="mt-2 mb-20">
             {mainNavItems?.length ? (
               <div className="flex flex-col space-y-3">

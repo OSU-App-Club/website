@@ -34,5 +34,9 @@ export const navMenuConfig: NavMenuConfig = {
       title: "About",
       href: "/about",
     },
+    {
+      title: "Sponsor",
+      href: "/sponsor",
+    },
   ],
 };

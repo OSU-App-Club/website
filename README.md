@@ -34,15 +34,15 @@ This is the repository for the OSU App Club website. The website is built using 
 ## Features
 
 - Config files
-- Views Transitions
+- Views Transitions API
 - Routing and Layouts
 - React components & hooks
-- UI Components built using **shadcn/ui**
+- Desin system built using **shadcn/ui**
 - Documentation and blog using **MDX** and **Content Collections**
 - Styled using **Tailwind CSS**
 - Validations using **Zod**
 - Written in **TypeScript**
-- 100/100 Lighthouse perf scores
+- 100/100 Lighthouse score
 
 _In Progress:_
 
@@ -57,19 +57,16 @@ _In Progress:_
 
 ## Roadmap
 
-- [x] ~Dark mode~
-- [x] ~Add Markdown & MDX support~
-- [x] ~Sheet mobile nav~
-- [ ] Dropdown mobile nav
-- [ ] Build **auth pages**
-- [ ] Build **admin dashboard pages**
+- [x] Dark mode
+- [x] Add Markdown & MDX support
+- [x] Sheet mobile nav
 - [ ] Add search support for blog
 - [ ] Add OG image for blog and others
 - [ ] Add SEO component & metadata
 
 ## Running Locally
 
-1. Install dependencies using pnpm, bun, or npm:
+1. Install dependencies using pnpm, bun, or npm (pick one):
 
 ```sh
 pnpm install
@@ -88,7 +85,3 @@ npm run dev
 ## License
 
 Licensed under the [MIT license](/LICENCE.md).
-
-```
-
-```

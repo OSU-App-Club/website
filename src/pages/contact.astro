@@ -4,17 +4,18 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import ContactLayout from "@/layouts/contact-layout.astro";
+import Icon from "astro-icon";
 ---
 
 <ContactLayout
-  title="About Us | App Development Club at Oregon State University"
-  description="The App Development Club at Oregon State University is a student-run organization that focuses on teaching students how to develop all types of applications."
+  title="Contact Us | App Development Club at Oregon State University"
+  description="We'd love to hear from you! Send us a message and we'll get back to you as soon as possible."
   mainClass="container py-10 p-12"
 >
   <h1 class="font-heading text-4xl">Contact Us</h1>
   <p class="mt-4 text-gray-500 dark:text-gray-400">
-    We'd love to hear from you! Send us a message and we'll get back to you as
-    soon as possible.
+    Fill out the contact form or reach out to us through our other contact
+    methods. <br /> We aim to respond to all inquiries within 24 hours.
   </p>
   <div class="w-full pt-8"></div>
   <div class="flex flex-col items-center justify-center">
@@ -56,29 +57,50 @@ import ContactLayout from "@/layouts/contact-layout.astro";
         <div class="space-y-2">
           <h3 class="text-2xl font-bold">Contact Information</h3>
           <p class="text-gray-500 dark:text-gray-400">
-            Contact us by phone, email, or visit us at our office
+            Contact us by email, joining our Discord, or coming to our meetings.
           </p>
         </div>
         <div class="space-y-4">
-          <div class="space-y-2">
-            <h4 class="font-semibold">Call us</h4>
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              Monday to Friday
-              <br />
-              9:00 am to 5:00 pm{"\n                              "}
+          <div>
+            <h4 class="font-semibold my-2">Email Us</h4>
+            <a
+              href="mailto:appdevelopment.clubs@oregonstate.edu"
+              class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+            >
+              appdevelopment.clubs@oregonstate.edu
+            </a>
+
+            <h4 class="font-semibold my-2">Join our Discord:</h4>
+            <a
+              href="https://discord.gg/adc"
+              class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+              >discord.gg/eae2rdQDPA</a
+            >
+
+            <h4 class="font-semibold my-2">Come to our meetings:</h4>
+            <p class="dark:text-gray-400 text-gray-500">
+              Wednesday at 6:00 PM (PST) <br />
+              Learning Innovation Center 303 & Zoom
             </p>
-          </div>
-          <div class="space-y-2">
-            <h4 class="font-semibold">Email us</h4>
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              We'll get back to you within 24 hours
-            </p>
-          </div>
-          <div class="space-y-2">
-            <h4 class="font-semibold">Visit our office</h4>
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              123 Street Name, City, Country
-            </p>
+
+            <h4 class="font-semibold my-2">Legacy Website:</h4>
+            <a
+              href="https://appdove.wixsite.com/club"
+              class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+            >
+              appdove.wixsite.com/club
+            </a>
+
+            <h4 class="font-semibold my-2">Instagram:</h4>
+
+            <div class="flex items-center space-x-2">
+              <Icon name="mdi:instagram" class="w-6 h-6" />
+              <a
+                href="https://www.instagram.com/osuappclub/"
+                class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+                >@osuappclub</a
+              >
+            </div>
           </div>
         </div>
       </div>

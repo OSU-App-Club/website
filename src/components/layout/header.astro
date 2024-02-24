@@ -2,34 +2,34 @@
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-import Icon from "astro-icon";
-
+import Beaver from "@/components/beaver.astro";
+import { ThemeToggle } from "@/components/theme-toggle";
 type Props = {
   className?: string;
 };
-
 const { className } = Astro.props;
 ---
 
 <header
   class={cn(
     "flex items-center h-16 md:h-18 z-50 sticky top-0 bg-background",
-    className
+    className,
   )}
 >
   <div class="relative container flex items-center justify-between w-full">
     <div class="flex items-center gap-6 md:gap-8 lg:gap-10">
-      <a href="/" class="hidden items-center space-x-2 md:flex">
-        <Icon name="stars-outline" class="size-8" />
+      <a href="/" class="hidden items-center space-x-2 md:flex gap-4">
+        <Beaver class="size-8 -mr-4" />
         <span class="hidden font-bold sm:inline-block">
-          {siteConfig.name}
+          {siteConfig.displayName}
         </span>
       </a>
 
       <slot name="mobile-nav-header" />
 
-      <div class="hidden md:flex">
+      <div class="hidden md:flex gap-4">
         <slot name="left-header" />
+        <ThemeToggle client:idle />
       </div>
     </div>
 
@@ -37,8 +37,8 @@ const { className } = Astro.props;
     <div
       class="absolute top-1/2 left-1/2 -translate-x-4 -translate-y-4 md:hidden"
     >
-      <a href="/" aria-label="Astronomy homepage">
-        <Icon name="stars-outline" class="size-8" />
+      <a href="/" aria-label="OSU App Club Home Page">
+        <Beaver class="size-8" />
       </a>
     </div>
 

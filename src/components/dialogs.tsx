@@ -14,7 +14,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import {
   Tooltip,
@@ -23,7 +22,9 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import type { ProjectCardItem, TeamCardItem } from "@/types";
+
 import {
+  AppWindow,
   ArrowRightIcon,
   GithubIcon,
   LinkedinIcon,
@@ -35,6 +36,7 @@ const mapIcon = {
   github: GithubIcon,
   linkedin: LinkedinIcon,
   email: MailIcon,
+  other: AppWindow,
 };
 
 interface BiographyDialogProps {
@@ -60,6 +62,7 @@ const BiographyDialog: React.FC<BiographyDialogProps> = ({
         </DialogHeader>
         <div className="flex flex-row justify-center gap-8 mx-10 text-md">
           <img
+            loading="lazy"
             src={officer.image}
             alt={officer.name}
             className="w-40 h-40 rounded-full"
@@ -68,15 +71,16 @@ const BiographyDialog: React.FC<BiographyDialogProps> = ({
         <p className="leading-8">{officer.biography}</p>
         <Separator className="my-0" />
         <DialogFooter className="flex flex-row items-end justify-end gap-2">
-          <Label>Connect with me!</Label>
           <div className="flex flex-row gap-4">
             {links.map(({ key, value }) => {
               const Icon = mapIcon[key as keyof typeof mapIcon];
               return (
                 <a
                   key={key}
+                  aria-label={key}
                   href={key === "email" ? `mailto:${value}` : value}
                   target={key === "email" ? "_self" : "_blank"}
+                  title={key}
                   rel="noreferrer"
                 >
                   <Icon className="w-5 h-5" />
@@ -122,11 +126,11 @@ export const ProjectDialog: React.FC<ProjectCardItem> = ({
                     </CarouselItem>
                   </>
                 )}
-
                 {images.map((image, index) => (
                   <Fragment key={index}>
                     <CarouselItem key={image} className="md:max-h-[300px]">
                       <img
+                        loading="lazy"
                         src={image}
                         alt={title}
                         className="w-full h-full object-cover"

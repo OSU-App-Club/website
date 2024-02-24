@@ -1,7 +1,8 @@
 import type { ProjectCardItem, TeamCardItem } from "@/types";
 
-const tomBiography = `Helloo! My name is Tom but most call me "Nyu-ma". This is my fourth year here at OSU and I'm originally from Orlando, Florida. My hobbies include reading manga, mastering the clarinet, and free climbing. If you ever want to laugh about floating points in JavaScript, or share disappointment by the second season of the Promised Neverland, feel free to reach out! This club is a great place to meet new people and learn new things, so I hope to see you at our next meeting or event!`;
+const tomBiography = `Hey -- My name is Tom but most call me "nuu-muh". I'm from Orlando, Florida. My hobbies include reading manga, mastering the clarinet, and free climbing. If you ever want to laugh about floating points in JavaScript, or share disappointment by the second season of the Promised Neverland, feel free to reach out! This club is a great place to meet new people and learn new things, so I hope to see you at our next meeting and or event!`;
 const sebastianBiography = `Hey! My name is Sebastian Torresola, and I am currently a sophomore majoring in CS at OSU. I’m a proud Arizonian, but I moved to Corvallis from Washington. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
+const tazBiography = `Hi! My name is Taz Larson and I'm a sophomore at OSU studying computer science. I was born in Oregon and have pretty much lived here my whole life. In my free time I like to go mountain bike, read, and of course play video games. Always feel free to reach out and chat!`;
 const chiBiography = `Hello, my name is Chi Chan and I am a sophomore at OSU. I am studying CS with a focus in web development! I am born in China moved to USA when I was kid. I am big fan of video game. My favorite thing to do is play soccer and basketball. I have been playing soccer since I was kid. If you want to 1v1 me in basketball let me know:`;
 
 const officerData: TeamCardItem[] = [
@@ -10,6 +11,7 @@ const officerData: TeamCardItem[] = [
     role: "President",
     image: "https://avatars.githubusercontent.com/u/46255836?v=4",
     github: "https://github.com/nyumat",
+    other: "https://tomnyuma.rocks",
     email: "nyumat@oregonstate.edu",
     biography: tomBiography,
   },
@@ -29,8 +31,8 @@ const officerData: TeamCardItem[] = [
     image: "https://avatars.githubusercontent.com/u/127142580?v=4",
     github: "https://github.com/ttlarson7",
     email: "idk@oregonstate.edu",
-    biography:
-      "I am a junior studying CS. I enjoy playing video games and reading.",
+    linkedin: "https://www.linkedin.com/in/taz-larson-a32955265/",
+    biography: tazBiography,
   },
   {
     name: "Chi Chan",

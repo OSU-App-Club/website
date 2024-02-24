@@ -13,13 +13,12 @@ export const navMenuConfig: NavMenuConfig = {
         {
           title: "Past Projects",
           href: "/#past-projects",
-          description:
-            "Projects are the heart of our club. See what we've done.",
+          description: "Projects are the heart of our club.",
         },
         {
-          title: "Our Team",
-          href: "/about/#team",
-          description: "Meet the leadership team and learn about our mission.",
+          title: "Join",
+          href: "/#join",
+          description: "Want to join? Here's how.",
         },
       ],
     },

@@ -34,8 +34,7 @@ export function MainNavigationMenu() {
                     Blog
                   </div>
                   <p className="text-sm leading-tight text-muted-foreground">
-                    The most active OSU Computer Science blog. Includes articles
-                    about our projects, events, and more.
+                    Read about our latest projects, events, and more.
                   </p>
                 </a>
               </li>

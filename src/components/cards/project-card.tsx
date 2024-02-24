@@ -27,7 +27,7 @@ export const ProjectCard: React.FC<ProjectCardItem> = ({
         </CardTitle>
         <Separator className="my-0" />
         <HoverCard>
-          <HoverCardTrigger className="cursor-pointer hover:underline text-center text-sm text-gradient_blaze-orange">
+          <HoverCardTrigger className="text-center text-sm text-gradient_blaze-orange">
             Tech Stack <span className="text-[10px]">(hover)</span>
           </HoverCardTrigger>
           <HoverCardContent className="flex flex-row flex-wrap gap-2">

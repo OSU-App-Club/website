@@ -22,22 +22,6 @@ export default function TeamCard({
 }: TeamCardProps) {
   return (
     <>
-      <Card className="hidden flex-row md:flex-row-reverse bg-slate-500 gap-4 h-72 w-[600px]">
-        <CardHeader>
-          <img src={image} alt={name} className="rounded-md mx-auto" />
-        </CardHeader>
-        <CardContent className="hidden md:block">
-          <div className="flex flex-col justify-center mx-6 text-md py-8">
-            <CardTitle className="text-2xl font-bold w-full">{name}</CardTitle>
-            <CardDescription className="text-orange-600 font-sans italic text-sm mb-4">
-              {role}
-            </CardDescription>
-            <div>
-              <p className="leading-8">{biography}</p>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
       <Card
         className={cn(
           " group flex flex-col w-full  md:w-72 group/item transition-all"

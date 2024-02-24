@@ -14,7 +14,7 @@ const faqData = [
   },
   {
     id: "item-5",
-    question: "Do I need to have experience in App Development to join?",
+    question: "Do I need to have experience to join?",
     answer:
       "No, you do not need to have any experience in App Development to join the club. We welcome students of all skill levels, from beginners learning to code to seasoned experts in App Development. Our club is a great place to find out what App Development is all about.",
   },

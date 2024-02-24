@@ -1,9 +1,9 @@
+import { ProjectCard } from "@/components/cards/project-card";
 import { officerData, pastProjectsData } from "@/data";
 import { convertLinksToObjects } from "@/lib/utils";
 import type { TeamCardItem } from "@/types";
 import { Fragment } from "react";
 import TeamCard from "./cards/team-card";
-import { ProjectCard } from "@/components/cards/project-card";
 
 export const PastProjectsGrid = () => {
   return (
@@ -27,6 +27,7 @@ export const LeadershipTeamGrid = () => {
               image,
               github,
               email,
+              other,
               linkedin,
               biography,
             }: TeamCardItem) => {
@@ -34,6 +35,7 @@ export const LeadershipTeamGrid = () => {
                 github: github || "",
                 email: email || "",
                 linkedin: linkedin || "",
+                other: other || "",
               };
 
               const links = convertLinksToObjects(allLinks);

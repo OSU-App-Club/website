@@ -5,8 +5,8 @@ export const siteConfig: SiteConfig = {
   name: "App Development Club at Oregon State University",
   description:
     "The App Development Club is a student organization at Oregon State University that focuses on teaching students how to develop applications for mobile and web platforms.",
-  url: "https://astro-nomy.vercel.app",
-  ogImage: "https://astro-nomy.vercel.app/og.jpg",
+  url: "https://appclubosu.vercel.app",
+  ogImage: "https://appclubosu.vercel.app/og.png",
   links: {
     ideal_logic: "https://apps.ideal-logic.com/osusli",
     github: "https://github.com/OSU-App-Club",

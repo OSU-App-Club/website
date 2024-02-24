@@ -1,8 +1,8 @@
-# OSU App Club Website
+# App Development Club Website
 
-This is the repository for the OSU App Club website. The website is built using [Astro](https://astro.build/), a modern web framework for building fast websites with as little JavaScript as possible, and [shadcn/ui](https://ui.shadcn.com/), a composable design system for building modern web applications.
+Source code for the official website for the App Development Club at Oregon State University. It is built using [Astro](https://astro.build) and [Shadcn UI](https://shadcn.com/ui). Our legacy website is still available at [osuapp.club](https://appdove.wixsite.com/club).
 
-![blog](public/og.jpg)
+![blog](public/preview.png)
 
 > **Warning**
 > This app is a work in progress. Our club is actively working on this project.

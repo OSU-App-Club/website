@@ -11,6 +11,28 @@ export type MenuItem = NavItem & {
   external?: boolean;
 };
 
+export interface TeamCardItem {
+  name: string;
+  role: string;
+  image: string;
+  other?: string;
+  github?: string;
+  linkedin?: string;
+  email?: string;
+  biography?: string;
+}
+
+export type ProjectCardItem = {
+  title: string;
+  description: string;
+  href: string;
+  github?: string;
+  live?: string;
+  images: string[];
+  video: string;
+  tags?: string[];
+};
+
 export type MainNavItem = NavItem;
 
 export type SidebarNavItem = {
@@ -29,13 +51,16 @@ export type SidebarNavItem = {
 );
 
 export type SiteConfig = {
+  displayName: string;
   name: string;
   description: string;
   url: string;
   ogImage: string;
   links: {
-    twitter: string;
     github: string;
+    ideal_logic: string;
+    discord: string;
+    old_website: string;
   };
 };
 
@@ -50,7 +75,6 @@ export type MarketingConfig = {
 
 export type NavMenuConfig = {
   infosNav: SidebarNavItem[];
-  examplesNav: SidebarNavItem[];
   links: MenuItem[];
 };
 

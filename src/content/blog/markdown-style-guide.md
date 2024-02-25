@@ -1,12 +1,19 @@
 ---
-title: 'Markdown Style Guide'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-pubDate: 'Jul 01 2022'
-coverImage: '/blog-placeholder-1.jpg'
-category: 'code'
+title: "Style/Typography Guide For Our Blog"
+description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
+pubDate: "Feb 22 2024"
+coverImage: "/blog-placeholder-about.jpg"
+category: "code"
+draft: false
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+## Thumbnails
+
+Post thumbnails are sized 960 x 480 pixels. The recommended file format is webp, but jpg and png are also acceptable. Make sure to use a descriptive filename, put it in the `public` directory, and reference it in the front matter.
+
+The image generally doesn't need to match the title of the post, but it should be relevant to the content. Here's an example of a blog post thumbnail:
+
+![An Example](/blog-placeholder-1.jpg)
 
 ## Headings
 
@@ -51,13 +58,13 @@ The blockquote element represents content that is quoted from another source, op
 #### Syntax
 
 ```markdown
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use _Markdown syntax_ within a blockquote.
 ```
 
 #### Output
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use _Markdown syntax_ within a blockquote.
 
 ### Blockquote with attribution
@@ -100,7 +107,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 
 ````markdown
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -116,7 +123,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 Output
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />

@@ -1,11 +1,11 @@
 ---
-title: 'Preview Markdown'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 11 2022'
-coverImage: '/blog-placeholder-about.jpg'
-category: 'markdown'
+title: "Pushing the Limits of Markdown with Tailwind CSS"
+description: "Just how far can we push the limits of Markdown?"
+pubDate: "Feb 22 2024"
+coverImage: "/blog-placeholder-about.jpg"
+category: "markdown"
+draft: true
 ---
-
 
 Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
 
@@ -119,7 +119,7 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-}
+};
 ```
 
 Hopefully that looks good enough to you.

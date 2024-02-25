@@ -5,6 +5,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    draft: z.optional(z.boolean()),
     coverImage: z.string(),
     category: z.string(),
     // Transform string to Date object
@@ -39,5 +40,4 @@ const guides = defineCollection({
   }),
 });
 
-
-export const collections = { blog , docs, guides };
+export const collections = { blog, docs, guides };

@@ -32,7 +32,7 @@ Truly, the possibilities are endless! The project you create doesn't need to spe
 - Robotics
 - and so much more!
 
-Whether you prefer to work solo, or in a team of up to three, this competition is your chance to flex those app development chops and shine!
+Whether you prefer to work solo, or in a team of up to four, this competition is your chance to flex those app development chops and shine!
 
 ## Logistics
 
@@ -83,7 +83,7 @@ The "bonus" will be awarded in the form of an extra vote since project submissio
 - You must join the DevPost to be eligible for prizes
 - You must complete the team registration form to be eligible for prizes
 - Each submission should contain a video demonstrating the project in its essence
-- Teams comprised of 1-3 people are allowed
+- Teams comprised of 1-4 people are allowed
 - The submission must have the full version control history published & accessible
 - If you use a template or any existing resources, please note that in the documentation of the project
 - All project submissions must be made by the Friday of Week 9 (March 15th, 2024)

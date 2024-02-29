@@ -20,7 +20,7 @@ export const ProjectCard: React.FC<ProjectCardItem> = ({
   tags,
 }) => {
   return (
-    <Card className="flex flex-col md:w-3/6 w-full my-10 transition-all">
+    <Card className="flex flex-col w-full my-10 transition-all">
       <CardHeader>
         <CardTitle className="text-2xl text-center font-semibold ">
           {title}

@@ -7,7 +7,7 @@ import TeamCard from "./cards/team-card";
 
 export const PastProjectsGrid = () => {
   return (
-    <div className="container mx-auto my-6 md:flex flex-row gap-20">
+    <div className="container mx-auto my-6 lg:grid grid-cols-3 place-items-center gap-20">
       {pastProjectsData.map((project) => (
         <ProjectCard key={project.title} {...project} />
       ))}

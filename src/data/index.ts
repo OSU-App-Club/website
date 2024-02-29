@@ -47,6 +47,33 @@ const officerData: TeamCardItem[] = [
 
 const pastProjectsData: ProjectCardItem[] = [
   {
+    title: "Term Long Winter Project",
+    description:
+      "As a part of winter 2023, we had a term long website competition where members of our club were tasked with building a personal project throughout the term. We allowed members to choose what individual technologies they used, with the only requirement being that the website had to be hosted on the web. The winners of the competition were awarded a prize. Here are the top 3 winners.",
+    href: "/",
+    github: "https://github.com/OSU-App-Club/beavsai-frontend",
+    live: "https://beavsai.onrender.com/",
+    images: [
+      "/beavsai.png",
+      "https://d3uraa353l50l1.cloudfront.net/image-1705999424668-Screen_Shot_2023-12-08_at_11.06.02_PM_d9zj0j.png?Expires=1866411416&Key-Pair-Id=K2QFIALPUONXG1&Signature=CX2myqCLMHfzQpsKCMa6K8bH3~DCMYq~s6u-ZYgtFZlbCOBbFMqwBCpk-5hWvRBt0oRl4mKW44eWpEhq85V0pktXK3A8Gl~sEDoTvYJUWhbtNSxScLlhltWFV3y~TBN04a-uqgJ6n0UbYXm-bJvQkAIHtdUytm-nUJ9bx1Lx5MvtsCWSLU2D6Nv4v9qlfHfsBsUQyl3XZrLjnVjrHi3zTNclBCg449pdXKDUixxLysrcY4PRtlDxsUTxYADmli~EEqfI3BId94oui~Pf1BjAimwXOXgvdcXx~1Fv9bMjqc1Xn3J~fCbc~1AVvXeM9yy1RyjOPiOnKHgjDb1wDz3yug__",
+      "/beavsai-2.png",
+      "beavsai-3.png",
+      "beavsai-4.png",
+      "beavsai-5.png",
+    ],
+    video:
+      "https://d3uraa353l50l1.cloudfront.net/video-1705999762920-beavsai_vj6hyw.mov?Expires=1711215415&Key-Pair-Id=K2QFIALPUONXG1&Signature=dtWaL9XRwn5qeSpLQ4tOV9jBBFOR3M5ZEENtLKj2Q2Hc8qLrCFDj-46kBraWWsPnmSEOx8XXOwAzucY~psyrcGSuSHhqGF3qOM00oGJ0wl9BfsjhWBRZqPblOPo-FQ2RGvtfDrT7HK3d31CebEzo4lBAztJP9UQA61ul3QQvA0kzzM1~sthU0TVJCO-hZdwGveENpFY618Q-iB91mi4AOHMmWOYA8dYOnWfPdmaavCrGFjBzZWcj1yI8W3W4Yyuf5YW2QI6aZy-PrV6F2NPgn5rZE4pCMfOD0DIpu22S0mGqgVU68ggxqsxNR0XtP7Tv3lkJJ2h0TK8sgoFIpNs9Bw__",
+    tags: [
+      "React",
+      "PineconeDB",
+      "Express.js",
+      "RAG",
+      "MongoDB",
+      "Python",
+      "Langchain",
+    ],
+  },
+  {
     title: "BeavsAI",
     description:
       "BeavsAI is a full-stack web application that allows OSU students to have conversations with their course syllabi. Simply add the course and start chatting away. The frontend was made in React, the backend in Express.js and MongoDB, and AI service using Python. We completed this project during the Fall 2023 term.",

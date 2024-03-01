@@ -14,12 +14,13 @@ type Props = {
   title: string;
   description?: string;
   mainClass?: string;
+  ogImage?: string;
 };
 
-const { title, description, mainClass } = Astro.props;
+const { title, description, mainClass, ogImage } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} ogImage={ogImage}>
   <Header>
     <!-- if using only normals links  -->
     <!-- <MainNav items={marketingConfig.mainNav} slot="left-header" />

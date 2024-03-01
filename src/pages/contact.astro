@@ -10,97 +10,96 @@ import Icon from "astro-icon";
 <ContactLayout
   title="Contact Us | App Development Club at Oregon State University"
   description="We'd love to hear from you! Send us a message and we'll get back to you as soon as possible."
-  mainClass="container py-10 p-12"
+  mainClass="container py-10 lg:p-12"
 >
   <h1 class="font-heading text-4xl">Contact Us</h1>
   <p class="mt-4 text-gray-500 dark:text-gray-400">
     Fill out the contact form or reach out to us through our other contact
-    methods. <br /> We aim to respond to all inquiries within 24 hours.
+    methods. <br /><br /> We aim to respond to all inquiries within 24 hours.
   </p>
   <div class="w-full pt-8"></div>
-  <div class="flex flex-col items-center justify-center">
-    <div class="grid w-full gap-4 px-4 lg:grid-cols-3 lg:px-0">
-      <div class="space-y-2 lg:col-span-2 lg:space-y-4">
-        <div class="space-y-4">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="space-y-2">
-              <Label htmlFor="first-name">First name</Label>
-              <Input id="first-name" placeholder="Enter your first name" />
-            </div>
-            <div class="space-y-2">
-              <Label htmlFor="last-name">Last name</Label>
-              <Input id="last-name" placeholder="Enter your last name" />
-            </div>
+
+  <div class="grid w-full gap-4 lg:grid-cols-3 lg:px-0">
+    <div class="space-y-4 lg:col-span-2 lg:space-y-4">
+      <div class="space-y-4">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="space-y-2">
+            <Label htmlFor="first-name">First name</Label>
+            <Input id="first-name" placeholder="Enter your first name" />
           </div>
           <div class="space-y-2">
-            <Label htmlFor="email">Email</Label>
-            <Input id="email" placeholder="Enter your email" />
-          </div>
-          <div class="space-y-2">
-            <Label htmlFor="subject">Subject</Label>
-            <Input id="subject" placeholder="Enter the subject" />
-          </div>
-          <div class="space-y-2">
-            <Label htmlFor="message">Message</Label>
-            <Textarea
-              className="min-h-[150px]"
-              id="message"
-              placeholder="Enter your message"
-            />
+            <Label htmlFor="last-name">Last name</Label>
+            <Input id="last-name" placeholder="Enter your last name" />
           </div>
         </div>
-        <Button size="lg">Submit</Button>
-      </div>
-      <div
-        class="space-y-4 border border-gray-200 dark:border-gray-800 rounded-lg p-6"
-      >
         <div class="space-y-2">
-          <h3 class="text-2xl font-bold">Contact Information</h3>
-          <p class="text-gray-500 dark:text-gray-400">
-            Contact us by email, joining our Discord, or coming to our meetings.
-          </p>
+          <Label htmlFor="email">Email</Label>
+          <Input id="email" placeholder="Enter your email" />
         </div>
-        <div class="space-y-4">
-          <div>
-            <h4 class="font-semibold my-2">Email Us</h4>
+        <div class="space-y-2">
+          <Label htmlFor="subject">Subject</Label>
+          <Input id="subject" placeholder="Enter the subject" />
+        </div>
+        <div class="space-y-2">
+          <Label htmlFor="message">Message</Label>
+          <Textarea
+            className="min-h-[150px]"
+            id="message"
+            placeholder="Enter your message"
+          />
+        </div>
+      </div>
+      <Button size="lg">Submit</Button>
+    </div>
+    <div
+      class="space-y-8 border border-gray-200 dark:border-gray-800 rounded-lg p-6"
+    >
+      <div class="space-y-2">
+        <h3 class="text-2xl font-bold">Contact Information</h3>
+        <p class="text-gray-500 dark:text-gray-400">
+          Contact us by email, joining our Discord, or coming to our meetings.
+        </p>
+      </div>
+      <div class="space-y-4">
+        <div>
+          <h4 class="font-semibold my-2">Email Us</h4>
+          <a
+            href="mailto:appdevelopment.clubs@oregonstate.edu"
+            class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+          >
+            appdevelopment.clubs@oregonstate.edu
+          </a>
+
+          <h4 class="font-semibold my-2">Join our Discord:</h4>
+          <a
+            href="https://discord.gg/adc"
+            class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+            >discord.gg/eae2rdQDPA</a
+          >
+
+          <h4 class="font-semibold my-2">Come to our meetings:</h4>
+          <p class="dark:text-gray-400 text-gray-500">
+            Wednesday at 6:00 PM (PST) <br />
+            Learning Innovation Center 303 & Zoom
+          </p>
+
+          <h4 class="font-semibold my-2">Legacy Website:</h4>
+          <a
+            href="https://appdove.wixsite.com/club"
+            class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+          >
+            appdove.wixsite.com/club
+          </a>
+
+          <h4 class="font-semibold my-2">Instagram:</h4>
+
+          <div class="flex items-center space-x-2">
+            <Icon name="mdi:instagram" class="w-6 h-6" />
             <a
-              href="mailto:appdevelopment.clubs@oregonstate.edu"
+              href="https://www.instagram.com/osuappclub/"
               class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
+              >@osuappclub</a
             >
-              appdevelopment.clubs@oregonstate.edu
-            </a>
-
-            <h4 class="font-semibold my-2">Join our Discord:</h4>
-            <a
-              href="https://discord.gg/adc"
-              class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
-              >discord.gg/eae2rdQDPA</a
-            >
-
-            <h4 class="font-semibold my-2">Come to our meetings:</h4>
-            <p class="dark:text-gray-400 text-gray-500">
-              Wednesday at 6:00 PM (PST) <br />
-              Learning Innovation Center 303 & Zoom
-            </p>
-
-            <h4 class="font-semibold my-2">Legacy Website:</h4>
-            <a
-              href="https://appdove.wixsite.com/club"
-              class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
-            >
-              appdove.wixsite.com/club
-            </a>
-
-            <h4 class="font-semibold my-2">Instagram:</h4>
-
-            <div class="flex items-center space-x-2">
-              <Icon name="mdi:instagram" class="w-6 h-6" />
-              <a
-                href="https://www.instagram.com/osuappclub/"
-                class="dark:text-gray-400 text-gray-500 hover:text-orange-600 hover:dark:text-orange-600 hover:underline"
-                >@osuappclub</a
-              >
-            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,6 @@
 import { cn } from "@/lib/utils";
+import { useEffect, useMemo, useRef } from "react";
+import { useWindowScroll } from "react-use";
 
 type SpotlightProps = {
   className?: string;
@@ -6,10 +8,32 @@ type SpotlightProps = {
 };
 
 const Spotlight = ({ className, fill }: SpotlightProps) => {
+  const { x, y } = useWindowScroll();
+  const currentPos = useMemo(() => ({ x, y }), [x, y]);
+  const ref = useRef<SVGSVGElement>(null);
+  useEffect(() => {
+    if (ref.current) {
+      const rect = ref.current.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 200 && rect.bottom > 0) {
+        window.requestAnimationFrame(() => {
+          ref.current?.classList.add("animate-spotlight");
+        });
+      }
+
+      if (rect.top > window.innerHeight - 200 || rect.bottom < 0) {
+        window.requestAnimationFrame(() => {
+          ref.current?.classList.remove("animate-spotlight");
+        });
+      }
+    }
+  }, [currentPos]);
+
   return (
     <svg
+      id="spotlight-svg"
+      ref={ref}
       className={cn(
-        "animate-spotlight pointer-events-none absolute z-[1]  h-[169%] w-[138%] lg:w-[84%] opacity-0",
+        "pointer-events-none absolute z-[1] h-[169%] w-[138%] lg:w-[84%] opacity-0",
         className
       )}
       xmlns="http://www.w3.org/2000/svg"

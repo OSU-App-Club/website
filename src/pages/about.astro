@@ -1,16 +1,16 @@
 ---
 import { LeadershipTeamGrid } from "@/components/grids";
+import { Separator } from "@/components/ui/separator";
 import MainLayout from "@/layouts/main-layout.astro";
 ---
 
 <MainLayout
   title="About Us | App Development Club at Oregon State University"
   description="The App Development Club at Oregon State University is a student-run organization that focuses on teaching students how to develop all types of applications."
-  mainClass="container py-10 p-12"
->
-  <section class="space-y-8" id="#team">
-    <h1 class="font-heading text-4xl">About Us</h1>
-
+  mainClass="container py-10">
+  <section class="space-y-8 max-w-4xl mx-auto" id="#team">
+    <h1 class="font-heading text-4xl">About</h1>
+    <Separator className="opacity-95" />
     <h2 class="font-subheading text-3xl font-normal">Leadership Team</h2>
     <LeadershipTeamGrid client:load />
 

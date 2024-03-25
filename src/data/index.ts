@@ -18,8 +18,7 @@ const officerData: TeamCardItem[] = [
   {
     name: "Sebastian Torresola",
     role: "Vice President",
-    image:
-      "https://cdn.discordapp.com/attachments/1146622446447898755/1210718535257690133/IMG_2881.jpg?ex=65eb9480&is=65d91f80&hm=b1a2287f86d64677f3669930e67cd38f92f6b81b5f3dbaa0df1af23d76730bb3&",
+    image: "/sebpfp.png",
     github: "https://github.com/sebat2004",
     linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
     email: "torresos@oregonstate.edu",

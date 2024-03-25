@@ -29,8 +29,14 @@ export default function TeamCard({
       >
         <CardHeader>
           <div className="relative flex flex-row justify-center gap-4">
-            <img src={image} alt={name} className="rounded-md mx-auto" />
-            <div className="hidden group-hover:block absolute inset-0 dark:bg-black/80 bg-gray-50 bg-opacity-75 dark:bg-opacity-75 rounded-md shadow-md p-4 backdrop-blur-sm">
+            <img
+              src={image}
+              alt={name}
+              className="rounded-md mx-auto"
+              width={300}
+              height={200}
+            />
+            <div className="hidden group-hover:block absolute inset-0 dark:bg-black/80 bg-gray-950/50 bg-opacity-75 dark:bg-opacity-75 rounded-md shadow-md p-4 backdrop-blur-sm">
               <BiographyDialog
                 officer={{ name, role, image, biography }}
                 links={links}

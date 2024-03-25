@@ -19,7 +19,7 @@ export const LeadershipTeamGrid = () => {
   return (
     <>
       <div className="container -mx-3 my-6">
-        <ul className="flex flex-wrap gap-8">
+        <ul className="flex gap-8 w-full flex-wrap md:flex-nowrap">
           {officerData.map(
             ({
               name,

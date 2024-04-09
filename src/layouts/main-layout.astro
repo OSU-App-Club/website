@@ -21,6 +21,14 @@ const { title, description, mainClass, ogImage } = Astro.props;
 ---
 
 <BaseLayout title={title} description={description} ogImage={ogImage}>
+  <div class="bg-[#F86A4A] px-4 py-3 text-white">
+    <p class="text-center text-sm font-medium">
+      We're hosting a hackathon with $2000 in prizes!{" "}🚀
+      <a href="/blog/purs-hackathon" class="inline-block underline"
+        >Learn more</a
+      >
+    </p>
+  </div>
   <Header>
     <!-- if using only normals links  -->
     <!-- <MainNav items={marketingConfig.mainNav} slot="left-header" />
@@ -42,8 +50,7 @@ const { title, description, mainClass, ogImage } = Astro.props;
     <nav slot="right-header">
       <a
         href="/contact"
-        class={cn(buttonVariants({ variant: "outline", size: "sm" }), "px-4")}
-      >
+        class={cn(buttonVariants({ variant: "outline", size: "sm" }), "px-4")}>
         Contact Us
       </a>
     </nav>

@@ -43,10 +43,10 @@ Source code for the official website for the App Development Club at Oregon Stat
 - Validations using **Zod**
 - Written in **TypeScript**
 - 100/100 Lighthouse score
+- RSS Feed support
 
 _In Progress:_
 
-- RSS Feed support
 - Sitemap support
 - Data Fetching
 - SEO component

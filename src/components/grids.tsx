@@ -51,7 +51,7 @@ export const LeadershipTeamGrid = () => {
                   />
                 </Fragment>
               );
-            }
+            },
           )}
         </ul>
       </div>

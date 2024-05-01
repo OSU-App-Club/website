@@ -24,7 +24,7 @@ export default function TeamCard({
     <>
       <Card
         className={cn(
-          " group flex flex-col w-full  md:w-72 group/item transition-all"
+          " group flex flex-col w-full  md:w-72 group/item transition-all",
         )}
       >
         <CardHeader>

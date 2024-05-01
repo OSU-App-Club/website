@@ -80,7 +80,7 @@ const ListItem: React.FC<MenuItem> = ({
           "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
           disabled
             ? "text-muted-foreground hover:bg-transparent hover:text-muted-foreground"
-            : ""
+            : "",
         )}
       >
         <div className="text-sm font-medium leading-none text-gradient_blaze-orange">

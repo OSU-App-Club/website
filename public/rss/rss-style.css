@@ -1,0 +1,42 @@
+:root {
+  font-size: 100%;
+}
+
+/* Alternate shadow */
+:root:root {
+  /* https://www.joshwcomeau.com/shadow-palette/ */
+  --shadow-color: 225deg 38% 0%;
+  --shadow-outset: 0 0.2px 0.3px hsl(var(--shadow-color) / 0),
+    0 1px 2.5px hsl(var(--shadow-color) / 0.05),
+    0 2px 4px -2px hsl(var(--shadow-color) / 0.11),
+    0 2.1px 10.2px hsl(var(--shadow-color) / 0.26);
+  --shadow-inset: 0 0.2px 0.3px hsl(var(--shadow-color) / 0) inset,
+    0 1px 2.5px hsl(var(--shadow-color) / 0.05) inset,
+    0 2px 4px -2px hsl(var(--shadow-color) / 0.11) inset,
+    0 2.1px 10.2px hsl(var(--shadow-color) / 0.26) inset;
+  --pico-box-shadow: var(--shadow-outset);
+}
+
+:root:root[data-theme="light"] {
+  --shadow-color: 0deg 0% 49%;
+}
+
+header,
+main,
+footer {
+  max-width: 800px;
+}
+
+article > *:last-child {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0.1em 0 0.2em;
+}
+
+.date {
+  margin: 0;
+  font-size: smaller;
+  color: var(--pico-muted-color);
+}

@@ -2,12 +2,18 @@
 title: "Officer Elections - Spring 2024"
 description: "All of the information required to run for an officer for next year!"
 pubDate: "April 30 2024"
-coverImage: "/spring24-project.png"
+coverImage: "/spring24-officer-elections.png"
 category: "events"
 draft: false
 ---
 
 Welcome back to our blog, App Developers! We are electing new officers for the 2024-2025 calendar year, and in this blog post we will outline all of the details about the election process.
+
+## About the Club
+
+##### If you want to learn more about our club before running for an officer position, check out the following links:
+- Join our [Discord](https://discord.gg/eae2rdQDPA)
+- Check out our [About Page](https://osuapp.club/about) 
 
 ## Event Details
 **When**: Wednesday, May 8th from 6-7pm PST

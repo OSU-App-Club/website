@@ -6,7 +6,9 @@ import { getCollection } from "astro:content";
 import { siteConfig } from "@/config/site";
 
 export async function GET(context) {
-  const posts = await getCollection("blog");
+  const posts = (await getCollection("blog")).filter(
+    (post) => !post.data.draft,
+  );
   return rss({
     title: siteConfig.name,
     description: siteConfig.description,

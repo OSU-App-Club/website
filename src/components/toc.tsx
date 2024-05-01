@@ -41,7 +41,7 @@ function useActiveItem(itemIds: (string | undefined)[]) {
           }
         });
       },
-      { rootMargin: `0% 0% -80% 0%` }
+      { rootMargin: `0% 0% -80% 0%` },
     );
 
     itemIds?.forEach((id) => {
@@ -90,7 +90,7 @@ function Tree({ tree, level = 1, activeItem }: TreeProps) {
                 "inline-block no-underline",
                 item.url === `#${activeItem}`
                   ? "font-medium text-primary"
-                  : "text-sm text-muted-foreground"
+                  : "text-sm text-muted-foreground",
               )}
             >
               {item.title}

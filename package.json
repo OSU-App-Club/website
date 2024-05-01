@@ -53,6 +53,7 @@
         "prettier": "^3.2.5",
         "prettier-plugin-astro": "^0.13.0",
         "remark": "^15.0.1",
+        "sanitize-html": "^2.13.0",
         "unist-util-visit": "^5.0.0"
     },
     "optionalDependencies": {

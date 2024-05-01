@@ -83,6 +83,25 @@ bun dev
 npm run dev
 ```
 
+## Contribution
+
+1. Join our [Discord server](https://discord.gg/eae2rdQDPA)
+2. Join the OSU-App-Club GitHub organization
+3. Clone the repository
+4. Create a new branch
+5. Make your changes
+6. Push your branch to the repository
+7. Create a pull request
+
+This project primarily uses [Gitmoji](https://gitmoji.dev). Feel free to follow the convention:
+
+```text
+📝 docs: add contribution guidelines
+✨ feat: add RSS auto-discovery and button
+```
+
+This is similar to the [Example of Usage](https://github.com/carloscuesta/gitmoji?tab=readme-ov-file#example-of-usage) on the official Gitmoji repository
+
 ## License
 
 Licensed under the [MIT license](/LICENCE.md).

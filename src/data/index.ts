@@ -1,9 +1,9 @@
 import type { ProjectCardItem, TeamCardItem } from "@/types";
 
 const tomBiography = `Hey -- My name is Tom but most call me "nuu-muh". I'm from Orlando, Florida. My hobbies include reading manga, mastering the clarinet, and free climbing. If you ever want to laugh about floating points in JavaScript, or share disappointment by the second season of the Promised Neverland, feel free to reach out! This club is a great place to meet new people and learn new things, so I hope to see you at our next meeting and or event!`;
-const sebastianBiography = `Hey! My name is Sebastian Torresola, and I am currently a sophomore majoring in CS at OSU. I’m a proud Arizonian, but I moved to Corvallis from Washington. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
+const sebastianBiography = `Hey! My name is Sebastian Torresola, and I am currently a sophomore majoring in CS at OSU. I'm a proud Arizonian, but I moved to Corvallis from Washington. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
 const tazBiography = `Hi! My name is Taz Larson and I'm a sophomore at OSU studying computer science. I was born in Oregon and have pretty much lived here my whole life. In my free time I like to go mountain bike, read, and of course play video games. Always feel free to reach out and chat!`;
-const chiBiography = `Hello, my name is Chi Chan and I am a sophomore at OSU. I am studying CS with a focus in web development! I am born in China moved to USA when I was kid. I am big fan of video game. My favorite thing to do is play soccer and basketball. I have been playing soccer since I was kid. If you want to 1v1 me in basketball let me know:`;
+const owenBiography = `Whatsup, my name is Owen, I'm a 2027 grad majoring in CS at OSU. I've lived in Oregon all my life, but my family moved to Hawaii after I graduated from high school. Other than coding I love to hangout with friends, shop for second hand clothing, and watch anime.`;
 
 const officerData: TeamCardItem[] = [
   {
@@ -34,13 +34,12 @@ const officerData: TeamCardItem[] = [
     biography: tazBiography,
   },
   {
-    name: "Chi Chan",
-    role: "Public Relations",
+    name: "Owen Krause",
+    role: "Secretary",
     image: "https://avatars.githubusercontent.com/u/114010974?v=4",
-    github: "https://github.com/ChiChan17",
-    linkedin:
-      "https://www.linkedin.com/in/chi-chan-14577a26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    biography: chiBiography,
+    github: "https://github.com/owenkrause",
+    email: "krauseo@oregonstate.edu",
+    biography: owenBiography,
   },
 ];
 

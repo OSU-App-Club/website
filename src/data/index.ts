@@ -1,6 +1,6 @@
 import type { ProjectCardItem, TeamCardItem } from "@/types";
 
-const tomBiography = `Hey -- My name is Tom but most call me "nuu-muh". I'm from Orlando, Florida. My hobbies include reading manga, mastering the clarinet, and free climbing. If you ever want to laugh about floating points in JavaScript, or share disappointment by the second season of the Promised Neverland, feel free to reach out! This club is a great place to meet new people and learn new things, so I hope to see you at our next meeting and or event!`;
+const tomBiography = `Hey -- My name is Tom but most call me "nuu-muh". My hobbies include reading manga, mastering the clarinet, and building fun websites. I've seen a lot as president here at ADC, so if I can assist you in any way, feel free to reach out! This club is a great place to meet new people and learn new things, so I hope to see you at our next meeting and or event!`;
 const sebastianBiography = `Hey! My name is Sebastian Torresola, and I am currently a sophomore majoring in CS at OSU. I'm a proud Arizonian, but I moved to Corvallis from Washington. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
 const tazBiography = `Hi! My name is Taz Larson and I'm a sophomore at OSU studying computer science. I was born in Oregon and have pretty much lived here my whole life. In my free time I like to go mountain bike, read, and of course play video games. Always feel free to reach out and chat!`;
 const owenBiography = `Whatsup, my name is Owen, I'm a 2027 grad majoring in CS at OSU. I've lived in Oregon all my life, but my family moved to Hawaii after I graduated from high school. Other than coding I love to hangout with friends, shop for second hand clothing, and watch anime.`;
@@ -45,6 +45,17 @@ const officerData: TeamCardItem[] = [
 
 const pastProjectsData: ProjectCardItem[] = [
   {
+    title: "Beavbright",
+    description:
+      "Beavbright is a web platform that allows students to find and share study resources. The platform is built using Next.js, Tailwind CSS, and PostgreSQL. We completed this project during the Spring 2024 term.",
+    href: "/",
+    github: "https://github.com/OSU-App-Club/beavbright",
+    live: "https://beavbright-web.vercel.app/",
+    images: ["/beavbright-1.png", "/beavbright.png"],
+    video: "",
+    tags: ["Next.js", "Tailwind CSS", "PostgreSQL"],
+  },
+  {
     title: "BeavsAI",
     description:
       "BeavsAI is a full-stack web application that allows OSU students to have conversations with their course syllabi. Simply add the course and start chatting away. The frontend was made in React, the backend in Express.js and MongoDB, and AI service using Python. We completed this project during the Fall 2023 term.",
@@ -59,8 +70,7 @@ const pastProjectsData: ProjectCardItem[] = [
       "beavsai-4.png",
       "beavsai-5.png",
     ],
-    video:
-      "https://d3uraa353l50l1.cloudfront.net/video-1705999762920-beavsai_vj6hyw.mov?Expires=1711215415&Key-Pair-Id=K2QFIALPUONXG1&Signature=dtWaL9XRwn5qeSpLQ4tOV9jBBFOR3M5ZEENtLKj2Q2Hc8qLrCFDj-46kBraWWsPnmSEOx8XXOwAzucY~psyrcGSuSHhqGF3qOM00oGJ0wl9BfsjhWBRZqPblOPo-FQ2RGvtfDrT7HK3d31CebEzo4lBAztJP9UQA61ul3QQvA0kzzM1~sthU0TVJCO-hZdwGveENpFY618Q-iB91mi4AOHMmWOYA8dYOnWfPdmaavCrGFjBzZWcj1yI8W3W4Yyuf5YW2QI6aZy-PrV6F2NPgn5rZE4pCMfOD0DIpu22S0mGqgVU68ggxqsxNR0XtP7Tv3lkJJ2h0TK8sgoFIpNs9Bw__",
+    video: "",
     tags: [
       "React",
       "PineconeDB",
@@ -79,8 +89,7 @@ const pastProjectsData: ProjectCardItem[] = [
     github: "https://github.com/OSU-App-Club/GestureProject-AWS",
     live: "https://www.youtube.com/watch?v=OmSSALhqRVc",
     images: ["/gesture-1.webp", "/gesture-2.webp", "/gesture-3.png"],
-    video:
-      "https://d3uraa353l50l1.cloudfront.net/video-1708649909184-Spring%202023%20-%20App%20Dev%20Club%20-%20Gesture%20Project%20-%20Holo%20Industries%20holographic%20plate%20demo.mp4?Expires=1711241931&Key-Pair-Id=K2QFIALPUONXG1&Signature=tu~i4UVWT1e27Eo-r1HFW5T~apLYDQW8q-T3WePuKh3oNxxQCzYF-Sam3oWqKEmwSWhBx39xLrujgsaNGGzoKaDBngvaGJmPTOeSIZDzpoYB0WGItTPF4K0NUA95fIoYchZDYEbbaXMAwNNRmImJdXOh22RKOjgndubJbF12Dcy56~Kf81Vlv6F8v3BVxSW5M-7ST-F3jVwZeNNrc1N9KMWYrVvlp2fEGZPq8DeuiYzqSQg0zB0W7D~Bj4qUkNdQ-5EaXiX5ZJT3LGE3Qv0R74Z8Mmb2stao06PF3bEvV9j4emmQxEz4wRFE0sivrZtNGfWurTtZ4cncsK9VfgRJLg__",
+    video: "",
     tags: [
       "RabbitMQ",
       "Ultraleap 3Di",

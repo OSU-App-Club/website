@@ -4,7 +4,7 @@ description: "A deep dive into the project setup process for the Fall 2024 term.
 pubDate: "Oct 8 2024"
 coverImage: "/proj-setup-fa24.png"
 category: "guide"
-draft: false
+draft: true
 ---
 
 Welcome back to our blog, App Developers! We are excited to dive into the project setup process for the project we'll be doing this term. In this blog post, we will outline all of the details needed for you to get started on developing for the project(s).
@@ -19,7 +19,7 @@ As you know, this term we are working on two projects, the first, [BeavsAI](http
 
 Here is everything you will need to setup for our club this term:
 
-- [Install an IDE](#install-an-ide)
+- [VSCode](#vscode)
 - [NodeJS](#nodejs)
 - [Python](#python)
 - [Git](#git)
@@ -134,6 +134,4 @@ If you can create a design file, then you should be all good to go!
 
 ---
 
-### BeavsAI
-
-### Party Finder
+Now you're good!

@@ -13,9 +13,6 @@ Welcome back to our blog, App Developers! We are excited to dive into the projec
 
 As you know, this term we are working on two projects, the first, [BeavsAI](https://beavsai.onrender.com), and the second being the Party Finder app. Both of these projects are going to be a great way for you to learn new technologies and work on a team project!
 
-<<<<<<< Updated upstream
-## Project Setup    
-=======
 ---
 
 ## Table of Contents
@@ -136,6 +133,5 @@ Navigate to https://figma.com/ and create an account if you haven't already.
 If you can create a design file, then you should be all good to go!
 
 ---
->>>>>>> Stashed changes
 
 Now you're good!

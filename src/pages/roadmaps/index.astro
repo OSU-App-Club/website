@@ -1,0 +1,28 @@
+---
+import { RoadmapOptionsGrid } from "@/components/grids";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import RoadmapLayout from "@/layouts/roadmap-layout.astro";
+import Icon from "astro-icon";
+---
+
+<RoadmapLayout
+  title="Roadmap | App Development Club at Oregon State University"
+  description="We'd love to hear from you! Send us a message and we'll get back to you as soon as possible."
+  mainClass="container py-10 lg:p-12">
+  <div class="mx-auto flex w-full flex-col gap-4">
+    <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-5xl">
+        Welcome to your App Development Journey!
+    </h2>
+    <p
+      class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+    >
+        Learn app development at your own pace and shape your future in tech.
+    </p>
+    
+    <RoadmapOptionsGrid />
+  </div>
+</RoadmapLayout>

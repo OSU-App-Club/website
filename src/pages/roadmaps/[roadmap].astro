@@ -1,0 +1,22 @@
+---
+import RoadmapLayout from '@/layouts/roadmap-layout.astro';
+import { capitalizer } from '@/lib/utils';
+
+export function getStaticPaths() {
+  return [
+    {params: {roadmap: 'web'}},
+    {params: {roadmap: 'mobile'}},
+    {params: {roadmap: 'desktop'}},
+  ];
+}
+
+const { roadmap } = Astro.params;
+const capitalizedRoadmap = capitalizer(roadmap)
+---
+<RoadmapLayout
+  title=`${capitalizedRoadmap} Roadmap | App Development Club at Oregon State University`
+  description="We'd love to hear from you! Send us a message and we'll get back to you as soon as possible."
+  mainClass="container py-10 lg:p-12">
+  <h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-5xl">{capitalizedRoadmap} Development Roadmap</h2>
+  
+</RoadmapLayout>

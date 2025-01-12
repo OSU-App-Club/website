@@ -1,9 +1,10 @@
 import { ProjectCard } from "@/components/cards/project-card";
-import { officerData, pastProjectsData } from "@/data";
+import { officerData, pastProjectsData, roadmapData } from "@/data";
 import { convertLinksToObjects } from "@/lib/utils";
 import type { TeamCardItem } from "@/types";
 import { Fragment } from "react";
 import TeamCard from "./cards/team-card";
+import RoadmapCard from "./cards/roadmap-card";
 
 export const PastProjectsGrid = () => {
     return (
@@ -16,7 +17,6 @@ export const PastProjectsGrid = () => {
         </div>
     );
 };
-
 
 export const LeadershipTeamGrid = () => {
     return (
@@ -54,10 +54,22 @@ export const LeadershipTeamGrid = () => {
                                     />
                                 </Fragment>
                             );
-                        },
+                        }
                     )}
                 </ul>
             </div>
         </>
+    );
+};
+
+export const RoadmapOptionsGrid = () => {
+    return (
+        <div className="lg:gap-8 md:gap-4 gap-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            {roadmapData.slice(0, 3).map((roadmap) => (
+                <div key={roadmap.title}>
+                    <RoadmapCard {...roadmap} />
+                </div>
+            ))}
+        </div>
     );
 };

@@ -30,6 +30,10 @@ export const navMenuConfig: NavMenuConfig = {
       href: "/about",
     },
     {
+      title: "Roadmap",
+      href: "/roadmap",
+    },
+    {
       title: "FAQ",
       href: "/faq",
     },

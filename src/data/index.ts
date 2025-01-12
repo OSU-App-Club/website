@@ -114,4 +114,27 @@ const pastProjectsData: ProjectCardItem[] = [
   },
 ];
 
-export { officerData, pastProjectsData };
+const roadmapData = [
+  {
+    title: "Web Development",
+    description: `Learn to create stunning websites to showcase your passions, projects, or
+                    personal brand.`,
+    available: true,
+    href: "/roadmaps/web",
+  },
+  {
+    title: "Mobile Development",
+    description: `Design and develop intuitive and beautiful mobile 
+                    experiences for any purpose or audience.`,
+    available: false,
+    href: "/roadmaps/mobile",
+  },
+  {
+    title: "Desktop Development",
+    description: `Build tools that work anytime, anywhere, where connectivity isn’t guaranteed. `,
+    available: false,
+    href: "/roadmaps/desktop",
+  },
+];
+
+export { officerData, pastProjectsData, roadmapData };

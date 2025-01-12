@@ -11,6 +11,13 @@ export type MenuItem = NavItem & {
   external?: boolean;
 };
 
+export interface RoadmapCardItem {
+  title: string;
+  description: string;
+  available: boolean;
+  href: string;
+}
+
 export interface TeamCardItem {
   name: string;
   role: string;

@@ -2,6 +2,7 @@ import type { ProjectCardItem, TeamCardItem } from "@/types";
 
 const tomBiography = `Hey there! My name is Tom but most know me by my last name, Nyuma ("nuu-muh"). My hobbies include reading manga, mastering the clarinet, and building fun websites. I've seen a lot as president here at the App Development Club, so if I can assist you in any way with classes, your career, or even life, feel free to reach out! This club is a great place to meet new people and learn new things, so I hope to see you at our next meeting and or event : )`;
 const sebastianBiography = `Hey! My name is Sebastian Torresola, and I am currently a sophomore majoring in CS at OSU. I'm a proud Arizonian, but I moved to Corvallis from Washington. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
+const anthonyBiography = `Hello! My name is Anthony Silva, and I am currently a double major student in computer science and mathematics at Oregon State University. Other than coding web and mobile applications, I like to study geography, go swimming, and play video games. Feel free to reach out to chat with me, whether it is about coding, academics, career prep, or whatever else that is going on!`;
 const tazBiography = `Hi! My name is Taz Larson and I'm a sophomore at OSU studying computer science. I was born in Oregon and have pretty much lived here my whole life. In my free time I like to go mountain bike, read, and of course play video games. Always feel free to reach out and chat!`;
 const owenBiography = `Whatsup, my name is Owen, I'm a 2027 grad majoring in CS at OSU. I've lived in Oregon all my life, but my family moved to Hawaii after I graduated from high school. Other than coding I love to hangout with friends, shop for second hand clothing, and watch anime.`;
 
@@ -15,7 +16,7 @@ const officerData: TeamCardItem[] = [
     email: "nyumat@oregonstate.edu",
     biography: tomBiography,
   },
-  {
+  /*{
     name: "Sebastian Torresola",
     role: "Vice President",
     image: "/sebpfp.png",
@@ -23,6 +24,15 @@ const officerData: TeamCardItem[] = [
     linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
     email: "torresos@oregonstate.edu",
     biography: sebastianBiography,
+  },*/
+  {
+    name: "Anthony Silva",
+    role: "Vice President",
+    image: "/anthony.jpg",
+    github: "https://github.com/wreckinaj",
+    linkedin: "https://www.linkedin.com/in/anthony-silva-613165291/",
+    email: "silvanth@oregonstate.edu",
+    biography: anthonyBiography,
   },
   {
     name: "Taz Larson",

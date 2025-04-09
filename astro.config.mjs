@@ -23,4 +23,7 @@ export default defineConfig({
   adapter: vercel({
     analytics: true,
   }),
+  vite: {
+    publicDir: "public",
+  },
 });

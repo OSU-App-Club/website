@@ -25,5 +25,10 @@ export default defineConfig({
   }),
   vite: {
     publicDir: "public",
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
   },
 });

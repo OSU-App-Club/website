@@ -11,8 +11,14 @@ import MainLayout from "@/layouts/main-layout.astro";
   <section class="space-y-8 max-w-4xl mx-auto" id="#team">
     <h1 class="font-heading text-4xl">About</h1>
     <Separator className="opacity-95" />
-    <h2 class="font-subheading text-3xl font-normal">Leadership Team</h2>
-    <LeadershipTeamGrid client:load />
+        <div>
+            <h2 class="font-subheading text-3xl font-normal">Leadership Team</h2>
+            <LeadershipTeamGrid client:load />
+        </div>
+        <div>
+    </div>
+
+
 
     <h2 class="font-subheading text-3xl font-normal">Mission</h2>
     <span class="text-lg space-y-5">

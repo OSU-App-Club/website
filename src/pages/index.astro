@@ -1,6 +1,6 @@
 ---
 import Confetti from "@/components/confetti-button";
-import { PastProjectsGrid } from "@/components/grids";
+import { MemberGrid, PastProjectsGrid } from "@/components/grids";
 import Spotlight from "@/components/ui/Spotlight";
 import { buttonVariants } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
@@ -82,6 +82,24 @@ const teamImageCaption = `Club members during Jack Herrington Guest Lecture`;
 				/>
 			</div>
 		</div>
+	</section>
+
+    <section
+		id="member-grid"
+		class="container space-y-12 py-8 md:py-12 lg:py-24">
+		<div
+			class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center my-10">
+			<h2
+				class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+				Our Members
+			</h2>
+			<p
+				class="max-w-[90%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 balance-text">
+				Here is a list of our current active members!
+				Click on a member's profile to learn more about them.
+			</p>
+		</div>
+		<MemberGrid client:visible />
 	</section>
 
 	<section

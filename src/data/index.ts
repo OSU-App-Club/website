@@ -1,4 +1,4 @@
-import type { ProjectCardItem, TeamCardItem } from "@/types";
+import type { MemberCardItem, ProjectCardItem, TeamCardItem } from "@/types";
 
 const sebastianBio = `Hey! My name is Sebastian Torresola, and I am currently a junior majoring in CS at OSU. I've lived in Arizona, Vancouver (BC), and Washington/Oregon for almost 7 years each. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
 const anthonyBio = `Hello! My name is Anthony Silva, and I am currently a double major student in computer science and mathematics at Oregon State University. Other than coding web and mobile applications, I like to study geography, go swimming, and play video games. Feel free to reach out to chat with me, whether it is about coding, academics, career prep, or whatever else that is going on!`;
@@ -36,7 +36,7 @@ const officerData: TeamCardItem[] = [
     biography: tristanBio,
   },
   {
-    name: "Sean Guttman",
+    name: "Sean Gutmann",
     role: "Webmaster",
     image: "https://avatars.githubusercontent.com/u/70712778?v=4",
     github: "https://github.com/SeanG-rsd",
@@ -60,6 +60,30 @@ const officerData: TeamCardItem[] = [
     email: "",
     biography: tylerBio,
   },
+];
+
+const beaverBio = "This is Beaver McBeaverson's biography.";
+// firstnameBio = "Your biography"
+// In case of a first name conflict, do firstnameLastnameBio = "Your biography"
+
+const memberData: MemberCardItem[] = [
+  {
+    name: "Beaver McBeaverson",
+    image: "https://avatars.githubusercontent.com/u/158121390?v=4",
+    github: "https://github.com/sebat2004",
+    linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
+    email: "torresos@oregonstate.edu",
+    biography: beaverBio,
+  },
+  //   {
+  //     name: "Your Name",
+  //     image: "Image url/path",
+  //     github: "GitHub Link (optional)",
+  //     linkedin: "LinkedIn Link (optional)",
+  //     other: "Personal Website Link (optional)",
+  //     email: "Your email (optional)",
+  //     biography: firstnameBio,
+  //   }
 ];
 
 const pastProjectsData: ProjectCardItem[] = [
@@ -133,4 +157,4 @@ const pastProjectsData: ProjectCardItem[] = [
   },
 ];
 
-export { officerData, pastProjectsData };
+export { officerData, pastProjectsData, memberData };

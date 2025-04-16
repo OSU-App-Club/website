@@ -21,7 +21,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import type { ProjectCardItem, TeamCardItem } from "@/types";
+import type { MemberCardItem, ProjectCardItem, TeamCardItem } from "@/types";
 
 import {
   AppWindow,
@@ -69,6 +69,60 @@ const BiographyDialog: React.FC<BiographyDialogProps> = ({
           />
         </div>
         <p className="leading-8">{officer.biography}</p>
+        <Separator className="my-0" />
+        <DialogFooter className="flex flex-row items-end justify-end gap-2">
+          <div className="flex flex-row gap-4">
+            {links.map(({ key, value }) => {
+              const Icon = mapIcon[key as keyof typeof mapIcon];
+              return (
+                <a
+                  key={key}
+                  aria-label={key}
+                  href={key === "email" ? `mailto:${value}` : value}
+                  target={key === "email" ? "_self" : "_blank"}
+                  title={key}
+                  rel="noreferrer"
+                >
+                  <Icon className="w-5 h-5" />
+                </a>
+              );
+            })}
+          </div>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+interface MemberBiographyDialogProps {
+  member: MemberCardItem;
+  links: { key: string; value: string }[];
+}
+
+export const MemberBiographyDialog: React.FC<MemberBiographyDialogProps> = ({
+  member,
+  links,
+}) => {
+  return (
+    <Dialog>
+      <DialogTrigger asChild>
+        <h3 className="w-full h-full cursor-pointer text-md hover:text-orange-600 text-center">
+          View Bio
+        </h3>
+      </DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>{member.name}'s Bio</DialogTitle>
+        </DialogHeader>
+        <div className="flex flex-row justify-center gap-8 mx-10 text-md">
+          <img
+            loading="lazy"
+            src={member.image}
+            alt={member.name}
+            className="w-40 h-40 rounded-full"
+          />
+        </div>
+        <p className="leading-8">{member.biography}</p>
         <Separator className="my-0" />
         <DialogFooter className="flex flex-row items-end justify-end gap-2">
           <div className="flex flex-row gap-4">

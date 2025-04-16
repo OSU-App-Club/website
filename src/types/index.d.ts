@@ -22,6 +22,16 @@ export interface TeamCardItem {
   biography?: string;
 }
 
+export interface MemberCardItem {
+  name: string;
+  image: string;
+  other?: string;
+  github?: string;
+  linkedin?: string;
+  email?: string;
+  biography?: string;
+}
+
 export type ProjectCardItem = {
   title: string;
   description: string;

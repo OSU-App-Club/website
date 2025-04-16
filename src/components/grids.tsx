@@ -1,9 +1,10 @@
 import { ProjectCard } from "@/components/cards/project-card";
-import { officerData, pastProjectsData } from "@/data";
+import { memberData, officerData, pastProjectsData } from "@/data";
 import { convertLinksToObjects } from "@/lib/utils";
-import type { TeamCardItem } from "@/types";
+import type { MemberCardItem, TeamCardItem } from "@/types";
 import { Fragment } from "react";
 import TeamCard from "./cards/team-card";
+import MemberCard from "./cards/member-card";
 
 export const PastProjectsGrid = () => {
   return (
@@ -47,6 +48,48 @@ export const LeadershipTeamGrid = () => {
                   <TeamCard
                     name={name}
                     role={role}
+                    image={image}
+                    biography={biography}
+                    links={links}
+                  />
+                </Fragment>
+              );
+            },
+          )}
+        </ul>
+      </div>
+    </>
+  );
+};
+
+export const MemberGrid = () => {
+  return (
+    <>
+      <div className="container">
+        <ul className="flex gap-2 w-full justify-center flex-wrap">
+          {memberData.map(
+            ({
+              name,
+              image,
+              github,
+              email,
+              other,
+              linkedin,
+              biography,
+            }: MemberCardItem) => {
+              const allLinks: Record<string, string> = {
+                github: github || "",
+                email: email || "",
+                linkedin: linkedin || "",
+                other: other || "",
+              };
+
+              const links = convertLinksToObjects(allLinks);
+
+              return (
+                <Fragment key={name}>
+                  <MemberCard
+                    name={name}
                     image={image}
                     biography={biography}
                     links={links}

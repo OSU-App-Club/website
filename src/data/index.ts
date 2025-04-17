@@ -9,6 +9,7 @@ const seanBio =
 const noamBio =
   "Hey! My name is Noam, and I’m a first year computer science major with a focus on computer systems. I was born in Israel, and relocated to Portland, Oregon more than a decade ago. I love thrifting, listening to music, and spending time with my family and friends. Feel free to reach out on any of my socials if you have any questions about the club, or if you just want to say hi!";
 const tylerBio = "";
+const omoriBio = "Hi, I'm Michael Omori, an AI grad student at OSU!";
 
 const officerData: TeamCardItem[] = [
   {
@@ -130,6 +131,16 @@ const memberData: MemberCardItem[] = [
     linkedin: "https://www.linkedin.com/in/harry23yu/",
     email: "yuhar@oregonstate.edu",
     biography: harryBio,
+  },
+  {
+    name: "Michael Omori",
+    image:
+      "https://avatars.githubusercontent.com/u/17519743?s=400&u=4db0e5aeae88eaff0735cf6d3aebfe9a3633868f&v=4",
+    github: "https://github.com/AstroBoy1",
+    linkedin: "https://www.linkedin.com/in/michaeljomori/",
+    other: "https://www.pawnpixels.com/",
+    email: "omorim@oregonstate.edu",
+    biography: omoriBio,
   },
 ];
 

@@ -4,7 +4,7 @@ const sebastianBio = `Hey! My name is Sebastian Torresola, and I am currently a 
 const anthonyBio = `Hello! My name is Anthony Silva, and I am currently a double major student in computer science and mathematics at Oregon State University. Other than coding web and mobile applications, I like to study geography, go swimming, and play video games. Feel free to reach out to chat with me, whether it is about coding, academics, career prep, or whatever else that is going on!`;
 const tristanBio = "";
 const seanBio = "";
-const noamBio = "";
+const noamBio = "Hey! My name is Noam, and I’m a first year computer science major with a focus on computer systems. I was born in Israel, and relocated to Portland, Oregon more than a decade ago. I love thrifting, listening to music, and spending time with my family and friends. Feel free to reach out on any of my socials if you have any questions about the club, or if you just want to say hi!";
 const tylerBio = "";
 
 const officerData: TeamCardItem[] = [
@@ -49,7 +49,8 @@ const officerData: TeamCardItem[] = [
     role: "Community Outreach",
     image: "https://avatars.githubusercontent.com/u/185013802?v=4",
     github: "https://github.com/yaffenator",
-    email: "",
+    email: "yaffen@oregonstate.edu",
+    linkedin: "https://www.linkedin.com/in/noam-yaffe-5429ab331/",
     biography: noamBio,
   },
   {

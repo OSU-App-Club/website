@@ -80,6 +80,8 @@ const harryBio =
   "Hello! My name is Harry Yu, and I am currently a junior majoring in computer science at OSU. I have lived in Corvallis my whole life, and I love playing video games, running, listening to music, and watching the NBA. During this past fall and winter terms, I was fortunate enough to have worked as a SWE intern at a healthcare startup in San Francisco. I am excited to be back at OSU and be a part of the App Dev Club!";
 const EthanBio =
   "Hello, I'm Ethan Ossana, a junior at Oregon State University studying both computer science and mechanical enigeering.";
+const harveyBio =
+  "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
 const memberData: MemberCardItem[] = [
@@ -98,7 +100,6 @@ const memberData: MemberCardItem[] = [
     image: "/adam.png",
     github: "https://github.com/abobich675",
     linkedin: "https://www.linkedin.com/in/adambobich/",
-    other: "",
     email: "bobicha@oregonstate.edu",
     biography: AdamBio,
   },
@@ -153,6 +154,11 @@ const memberData: MemberCardItem[] = [
     linkedin: "www.linkedin.com/in/ethan-ossana",
     email: "ethanbenstar@gmail.com",
     biography: EthanBio,
+  },
+  {
+    name: "Harvey Ng",
+    image: "https://avatars.githubusercontent.com/u/100104771?v=4",
+    biography: harveyBio,
   },
 ];
 

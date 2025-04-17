@@ -65,29 +65,20 @@ const officerData: TeamCardItem[] = [
   },
 ];
 
-const beaverBio = "This is Beaver McBeaverson's biography.";
 const dylanBio =
   "Hi! I'm Dylan! Junior here at Oregon State studying Computer Science with a focus in Computer Graphics and Games :)";
-// firstnameBio = "Your biography"
 const AdamBio =
   "Hello! My name is Adam Bobich. I'm from California and am currently a 2nd year Computer Science student at Oregon State.";
 const kevinRubioBio =
   "Hi my name is Kevin Rubio I am Sophomore majoring in Computer Science with a minor in mathematics. Some of my hobbies include hiking, weightlifting, and snowboarding. A fun fact about Richard Sherman at an airport";
-// In case of a first name conflict, do firstnameLastnameBio = "Your biography"
-const lukasBio =
-  "Ahoi 👋 I'm Lukas Werner, I'm a second year software engineering student at Oregon State University.";
 const chaseDbio =
   "Hi! I'm Chase! I'm a second year computer science student at Oregon State University. Prompt engineer specialist.";
+const lukasBio =
+  "Ahoi 👋 I'm Lukas Werner, I'm a second year software engineering student at Oregon State University.";
+const harryBio =
+  "Hello! My name is Harry Yu, and I am currently a junior majoring in computer science at OSU. I have lived in Corvallis my whole life, and I love playing video games, running, listening to music, and watching the NBA. During this past fall and winter terms, I was fortunate enough to have worked as a SWE intern at a healthcare startup in San Francisco. I am excited to be back at OSU and be a part of the App Dev Club!";
 
 const memberData: MemberCardItem[] = [
-  {
-    name: "Beaver McBeaverson",
-    image: "https://avatars.githubusercontent.com/u/158121390?v=4",
-    github: "https://github.com/sebat2004",
-    linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
-    email: "torresos@oregonstate.edu",
-    biography: beaverBio,
-  },
   {
     name: "Dylan Keyhantaj",
     image:
@@ -107,15 +98,6 @@ const memberData: MemberCardItem[] = [
     email: "bobicha@oregonstate.edu",
     biography: AdamBio,
   },
-  //   {
-  //     name: "Your Name",
-  //     image: "Image url/path",
-  //     github: "GitHub Link (optional)",
-  //     linkedin: "LinkedIn Link (optional)",
-  //     other: "Personal Website Link (optional)",
-  //     email: "Your email (optional)",
-  //     biography: firstnameBio,
-  //   }
   {
     name: "Lukas Werner",
     image: "https://avatars.githubusercontent.com/u/55150634?v=4",
@@ -139,6 +121,15 @@ const memberData: MemberCardItem[] = [
       "https://avatars.githubusercontent.com/u/194431855?s=400&u=a39753085c6a4650799897a210fe1e1a224e0946&v=4",
     email: "dunnchas@oregonstate.edu",
     biography: chaseDbio,
+  },
+  {
+    name: "Harry Yu",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQFdI-Kd-cOvFQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707326158067?e=1750291200&v=beta&t=Aq6Yix9r7PiLCn5JOfuZTgqKGRF9CY5rnjMp8HetbgQ",
+    github: "https://github.com/harry23yu/",
+    linkedin: "https://www.linkedin.com/in/harry23yu/",
+    email: "yuhar@oregonstate.edu",
+    biography: harryBio,
   },
 ];
 

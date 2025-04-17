@@ -66,6 +66,10 @@ const beaverBio = "This is Beaver McBeaverson's biography.";
 const AdamBio = "Hello! My name is Adam Bobich. I'm from California and am currently a 2nd year Computer Science student at Oregon State."
 // firstnameBio = "Your biography"
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
+const lukasBio =
+  "Ahoi 👋 I'm Lukas Werner, I'm a second year software engineering student at Oregon State University.";
+const chaseDbio = 
+"Hi! I'm Chase! I'm a second year computer science student at Oregon State University. Prompt engineer specialist.";
 
 const memberData: MemberCardItem[] = [
   {
@@ -94,6 +98,29 @@ const memberData: MemberCardItem[] = [
   //     email: "Your email (optional)",
   //     biography: firstnameBio,
   //   }
+  {
+    name: "Lukas Werner",
+    image: "https://avatars.githubusercontent.com/u/55150634?v=4",
+    github: "https://github.com/lukasmwerner",
+    linkedin: "https://www.linkedin.com/in/lukasmwerner/",
+    other: "https://lukasmwerner.com",
+    email: "wernerlu@oregonstate.edu",
+    biography: lukasBio,
+  },
+  {
+      name: "Kevin Rubio",
+      image: "/kevin_image.JPG",
+      github: "https://github.com/kevinru2023",
+      linkedin: "https://www.linkedin.com/in/kevin-rubio-851269236/",
+      email: "rubiok@oregonstate.edu",
+      biography: kevinRubioBio,
+  },
+     {
+       name: "Chase Dunn",
+       image: "https://avatars.githubusercontent.com/u/194431855?s=400&u=a39753085c6a4650799897a210fe1e1a224e0946&v=4",
+       email: "dunnchas@oregonstate.edu",
+       biography: chaseDbio,
+    },
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

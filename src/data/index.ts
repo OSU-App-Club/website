@@ -63,6 +63,7 @@ const officerData: TeamCardItem[] = [
 ];
 
 const beaverBio = "This is Beaver McBeaverson's biography.";
+const dylanBio = "Hi! I'm Dylan! Junior here at Oregon State studying Computer Science with a focus in Computer Graphics and Games :)"
 // firstnameBio = "Your biography"
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
@@ -75,6 +76,15 @@ const memberData: MemberCardItem[] = [
     email: "torresos@oregonstate.edu",
     biography: beaverBio,
   },
+    {
+      name: "Dylan Keyhantaj",
+      image: "https://media.licdn.com/dms/image/v2/D4E03AQFAJMVfK-vkEw/profile-displayphoto-shrink_400_400/B4EZX_czWwG0Ag-/0/1743747495706?e=1750291200&v=beta&t=CQBWYYkIWlZySRB0el88-7GO-W4nMIe22JYLLHHEK6s",
+      github: "https://github.com/slaiff",
+      linkedin: "https://www.linkedin.com/in/dylan-keyhantaj/",
+      other: "Personal Website Link (optional)",
+      email: "dylan.keyhantaj@gmail.com",
+      biography: dylanBio,
+     }
   //   {
   //     name: "Your Name",
   //     image: "Image url/path",

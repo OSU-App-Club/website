@@ -65,6 +65,8 @@ const officerData: TeamCardItem[] = [
 const beaverBio = "This is Beaver McBeaverson's biography.";
 // firstnameBio = "Your biography"
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
+const lukasBio =
+  "Ahoi 👋 I'm Lukas Werner, I'm a second year software engineering student at Oregon State University.";
 
 const memberData: MemberCardItem[] = [
   {
@@ -74,6 +76,15 @@ const memberData: MemberCardItem[] = [
     linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
     email: "torresos@oregonstate.edu",
     biography: beaverBio,
+  },
+  {
+    name: "Lukas Werner",
+    image: "https://avatars.githubusercontent.com/u/55150634?v=4",
+    github: "https://github.com/lukasmwerner",
+    linkedin: "https://www.linkedin.com/in/lukasmwerner/",
+    other: "https://lukasmwerner.com",
+    email: "wernerlu@oregonstate.edu",
+    biography: lukasBio,
   },
   //   {
   //     name: "Your Name",

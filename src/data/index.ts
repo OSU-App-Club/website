@@ -3,7 +3,7 @@ import type { MemberCardItem, ProjectCardItem, TeamCardItem } from "@/types";
 const sebastianBio = `Hey! My name is Sebastian Torresola, and I am currently a junior majoring in CS at OSU. I've lived in Arizona, Vancouver (BC), and Washington/Oregon for almost 7 years each. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
 const anthonyBio = `Hello! My name is Anthony Silva, and I am currently a double major student in computer science and mathematics at Oregon State University. Other than coding web and mobile applications, I like to study geography, go swimming, and play video games. Feel free to reach out to chat with me, whether it is about coding, academics, career prep, or whatever else that is going on!`;
 const tristanBio = "";
-const seanBio = "";
+const seanBio = "Hello! My name is Sean Gutmann, and I am currently majoring in CS Systems at OSU. I'm from Seattle, WA. I really enjoy playing soccer, spikeball, and frisbee with friends. I also enjoy coding websites and mobile apps that I can use.";
 const noamBio = "";
 const tylerBio = "";
 
@@ -41,7 +41,7 @@ const officerData: TeamCardItem[] = [
     image: "https://avatars.githubusercontent.com/u/70712778?v=4",
     github: "https://github.com/SeanG-rsd",
     linkedin: "https://www.linkedin.com/in/seangutmann/",
-    email: "",
+    email: "gutmanns@oregonstate.edu",
     biography: seanBio,
   },
   {

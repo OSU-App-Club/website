@@ -87,7 +87,7 @@ const memberData: MemberCardItem[] = [
   },
   {
       name: "Kevin Rubio",
-      image: "../../public/kevin_image.JPG",
+      image: "/kevin_image.JPG",
       github: "https://github.com/kevinru2023",
       linkedin: "https://www.linkedin.com/in/kevin-rubio-851269236/",
       email: "rubiok@oregonstate.edu",

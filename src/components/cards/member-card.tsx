@@ -22,7 +22,7 @@ export default function MemberCard({
   return (
     <Card
       className={cn(
-        "group flex flex-col w-full sm:w-32 group/item transition-all hover:scale-105",
+        "group flex flex-col w-32 group/item transition-all hover:scale-105",
       )}
     >
       <CardHeader className="pt-3">

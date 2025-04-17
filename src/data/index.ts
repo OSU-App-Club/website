@@ -64,24 +64,44 @@ const officerData: TeamCardItem[] = [
 const beaverBio = "This is Beaver McBeaverson's biography.";
 const kevinRubioBio = "Hi my name is Kevin Rubio I am Sophomore majoring in Computer Science with a minor in mathematics. Some of my hobbies include hiking, weightlifting, and snowboarding. A fun fact about Richard Sherman at an airport"
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
+const lukasBio =
+  "Ahoi 👋 I'm Lukas Werner, I'm a second year software engineering student at Oregon State University.";
 
 const memberData: MemberCardItem[] = [
-    {
-        name: "Beaver McBeaverson",
-        image: "https://avatars.githubusercontent.com/u/158121390?v=4",
-        github: "https://github.com/sebat2004",
-        linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
-        email: "torresos@oregonstate.edu",
-        biography: beaverBio,
-    },
-    {
-        name: "Kevin Rubio",
-        image: "../../public/kevin_image.JPG",
-        github: "https://github.com/kevinru2023",
-        linkedin: "https://www.linkedin.com/in/kevin-rubio-851269236/",
-        email: "rubiok@oregonstate.edu",
-        biography: kevinRubioBio,
-    }
+  {
+    name: "Beaver McBeaverson",
+    image: "https://avatars.githubusercontent.com/u/158121390?v=4",
+    github: "https://github.com/sebat2004",
+    linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
+    email: "torresos@oregonstate.edu",
+    biography: beaverBio,
+  },
+  {
+    name: "Lukas Werner",
+    image: "https://avatars.githubusercontent.com/u/55150634?v=4",
+    github: "https://github.com/lukasmwerner",
+    linkedin: "https://www.linkedin.com/in/lukasmwerner/",
+    other: "https://lukasmwerner.com",
+    email: "wernerlu@oregonstate.edu",
+    biography: lukasBio,
+  },
+  {
+      name: "Kevin Rubio",
+      image: "../../public/kevin_image.JPG",
+      github: "https://github.com/kevinru2023",
+      linkedin: "https://www.linkedin.com/in/kevin-rubio-851269236/",
+      email: "rubiok@oregonstate.edu",
+      biography: kevinRubioBio,
+  }
+  //   {
+  //     name: "Your Name",
+  //     image: "Image url/path",
+  //     github: "GitHub Link (optional)",
+  //     linkedin: "LinkedIn Link (optional)",
+  //     other: "Personal Website Link (optional)",
+  //     email: "Your email (optional)",
+  //     biography: firstnameBio,
+  //   }
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

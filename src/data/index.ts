@@ -2,7 +2,7 @@ import type { MemberCardItem, ProjectCardItem, TeamCardItem } from "@/types";
 
 const sebastianBio = `Hey! My name is Sebastian Torresola, and I am currently a junior majoring in CS at OSU. I've lived in Arizona, Vancouver (BC), and Washington/Oregon for almost 7 years each. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
 const anthonyBio = `Hello! My name is Anthony Silva, and I am currently a double major student in computer science and mathematics at Oregon State University. Other than coding web and mobile applications, I like to study geography, go swimming, and play video games. Feel free to reach out to chat with me, whether it is about coding, academics, career prep, or whatever else that is going on!`;
-const tristanBio = "";
+const tristanBio = "What’s up! My name is Tristan Goehring, and I am a freshman CS student in the systems option at OSU. I love working out at the gym, playing golf with my friends, and basketball. My favorite academic subjects outside of CS are math (especially vector calculus) and anything with problem solving. ";
 const seanBio = "";
 const noamBio = "";
 const tylerBio = "";

@@ -160,6 +160,14 @@ const memberData: MemberCardItem[] = [
     image: "https://avatars.githubusercontent.com/u/100104771?v=4",
     biography: harveyBio,
   },
+  {
+    name: "Cody Perry",
+    image: "https://avatars.githubusercontent.com/u/122051469?s=400&v=4",
+    github: "https://github.com/CAPerry0414",
+    linkedin: "www.linkedin.com/in/cody-perry-9470851ba",
+    email: "codyperry04@gmail.com",
+    biography: codyPerryBio,
+  }
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

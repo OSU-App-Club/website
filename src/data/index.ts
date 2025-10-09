@@ -33,7 +33,7 @@ const officerData: TeamCardItem[] = [
   {
     name: "Tristan Goehring",
     role: "Secretary",
-    image: "/tristan.png",
+    image: "https://avatars.githubusercontent.com/u/93668156?v=4",
     github: "https://github.com/0Tristan0",
     email: "goehrint@oregonstate.edu",
     linkedin: "https://www.linkedin.com/in/tristan-goehring/",
@@ -83,6 +83,9 @@ const EthanBio =
 const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
+
+const marBio = 
+  "Hi! My name is Marika Handa, second year student at OSU and my major is ECE"; 
 
 const memberData: MemberCardItem[] = [
   {
@@ -160,6 +163,12 @@ const memberData: MemberCardItem[] = [
     image: "https://avatars.githubusercontent.com/u/100104771?v=4",
     biography: harveyBio,
   },
+
+  {
+    name: "Marika Handa",
+    github: "https://github.com/ENGR-C0ffeee", 
+    biography: marBio, 
+  
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

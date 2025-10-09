@@ -33,7 +33,7 @@ const officerData: TeamCardItem[] = [
   {
     name: "Tristan Goehring",
     role: "Secretary",
-    image: "https://avatars.githubusercontent.com/u/93668156?v=4",
+    image: "/tristan.png",
     github: "https://github.com/0Tristan0",
     email: "goehrint@oregonstate.edu",
     linkedin: "https://www.linkedin.com/in/tristan-goehring/",

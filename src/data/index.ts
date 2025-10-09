@@ -64,6 +64,7 @@ const officerData: TeamCardItem[] = [
     email: "",
     biography: tylerBio,
   },
+  
 ];
 
 const dylanBio =
@@ -159,6 +160,15 @@ const memberData: MemberCardItem[] = [
     name: "Harvey Ng",
     image: "https://avatars.githubusercontent.com/u/100104771?v=4",
     biography: harveyBio,
+  },
+  {
+    name: "Daniel Tran",
+    image:
+      "",
+    github: "https://github.com/DT199012",
+    linkedin: "www.linkedin.com/in/quocnnam-daniel-tran",
+    email: "namdanieltran@gmail.com",
+    biography: "",
   },
 ];
 

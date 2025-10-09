@@ -11,6 +11,8 @@ const noamBio =
 const tylerBio = "";
 const omoriBio = "Hi, I'm Michael Omori, an AI grad student at OSU!";
 
+
+
 const officerData: TeamCardItem[] = [
   {
     name: "Sebastian Torresola",
@@ -35,7 +37,7 @@ const officerData: TeamCardItem[] = [
     role: "Secretary",
     image: "https://avatars.githubusercontent.com/u/93668156?v=4",
     github: "https://github.com/0Tristan0",
-    email: "goehrint@oregonstate.edu",
+    email: "",
     linkedin: "https://www.linkedin.com/in/tristan-goehring/",
     biography: tristanBio,
   },
@@ -83,6 +85,9 @@ const EthanBio =
 const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
+
+const MarBio = "Hi! My name is Marika Handa, and I am a second year ECE student at OSU. 
+
 
 const memberData: MemberCardItem[] = [
   {
@@ -160,6 +165,12 @@ const memberData: MemberCardItem[] = [
     image: "https://avatars.githubusercontent.com/u/100104771?v=4",
     biography: harveyBio,
   },
+
+  name: "Marika Handa",
+  github: "https://github.com/ENGR-C0ffeee",
+  biography: MarBio, 
+
+  
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

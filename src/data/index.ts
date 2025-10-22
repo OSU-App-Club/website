@@ -153,7 +153,7 @@ const memberData: MemberCardItem[] = [
     image:
       "https://avatars.githubusercontent.com/u/183556701?s=400&u=1de971ca18de004f6311f6d5e989b073c4168a4d&v=4",
     github: "https://github.com/EthanHorizons",
-    linkedin: "www.linkedin.com/in/ethan-ossana",
+    linkedin: "https://www.linkedin.com/in/ethan-ossana",
     email: "ethanbenstar@gmail.com",
     biography: EthanBio,
   },
@@ -170,6 +170,14 @@ const memberData: MemberCardItem[] = [
     email: "lammonj@oregonstate.edu",
     biography: jeremyBio,
   }
+    name: "Daniel Tran",
+    image:
+      "",
+    github: "https://github.com/DT199012",
+    linkedin: "https://www.linkedin.com/in/quocnnam-daniel-tran",
+    email: "namdanieltran@gmail.com",
+    biography: "This member has no biography.",
+  },
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

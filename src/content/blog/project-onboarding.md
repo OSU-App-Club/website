@@ -141,5 +141,3 @@ Navigate to https://figma.com/ and create an account if you haven't already. The
 If you can view our Figma files, you should be ready to go!
 
 ---
-
-Docker

@@ -82,6 +82,8 @@ const EthanBio =
   "Hello, I'm Ethan Ossana, a junior at Oregon State University studying both computer science and mechanical enigeering.";
 const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
+const jeremyBio = 
+  "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University."
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
 const memberData: MemberCardItem[] = [
@@ -161,14 +163,22 @@ const memberData: MemberCardItem[] = [
     biography: harveyBio,
   },
   {
+    name: "Jeremy Lammon",
+    image: "https://avatars.githubusercontent.com/jeremy-lammon",
+    github: "https://github.com/jeremy-lammon",
+    linkedin: "https://www.linkedin.com/in/jeremy-lammon-41506a241/",
+    email: "lammonj@oregonstate.edu",
+    biography: jeremyBio,
+  },
+  {
     name: "Daniel Tran",
     image:
       "",
     github: "https://github.com/DT199012",
     linkedin: "https://www.linkedin.com/in/quocnnam-daniel-tran",
     email: "namdanieltran@gmail.com",
-    biography: "",
-  },
+    biography: "This member has no biography.",
+  }
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

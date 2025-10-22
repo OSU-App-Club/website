@@ -169,7 +169,8 @@ const memberData: MemberCardItem[] = [
     linkedin: "https://www.linkedin.com/in/jeremy-lammon-41506a241/",
     email: "lammonj@oregonstate.edu",
     biography: jeremyBio,
-  }
+  },
+  {
     name: "Daniel Tran",
     image:
       "",
@@ -177,7 +178,7 @@ const memberData: MemberCardItem[] = [
     linkedin: "https://www.linkedin.com/in/quocnnam-daniel-tran",
     email: "namdanieltran@gmail.com",
     biography: "This member has no biography.",
-  },
+  }
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

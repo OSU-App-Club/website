@@ -169,6 +169,7 @@ const memberData: MemberCardItem[] = [
     name: "Marika Handa",
     github: "https://github.com/ENGR-C0ffeee", 
     biography: marBio, 
+    image: "https://avatars.githubusercontent.com/u/233378920?s=80&v=4",
   },
   {
     name: "Jeremy Lammon",

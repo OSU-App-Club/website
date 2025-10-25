@@ -86,7 +86,7 @@ const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
 const jeremyBio = 
   "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University."
-const MarBio = "Hi! My name is Marika Handa, and I am a second year ECE student at OSU. 
+const MarBio = "Hi! My name is Marika Handa, and I am a second year ECE student at OSU."
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
 

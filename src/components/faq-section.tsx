@@ -22,7 +22,7 @@ const faqData = [
     id: "item-2",
     question: "When are the club meetings?",
     answer:
-      "We meet once a week on Wednesdays at 6:00 PM. The location of the meeting is both on Zoom, and in person at OSU's very own Learning Innovation Center (LINC) Room 303.",
+      "We meet once a week on Wednesdays at 6:00 PM. The location of the meeting is both on Zoom, and in person at OSU's very own Bexell Hall Room 207.",
   },
   {
     id: "item-3",

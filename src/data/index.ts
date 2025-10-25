@@ -35,7 +35,7 @@ const officerData: TeamCardItem[] = [
   {
     name: "Tristan Goehring",
     role: "Secretary",
-    image: "https://avatars.githubusercontent.com/u/93668156?v=4",
+    image: "/tristan.png",
     github: "https://github.com/0Tristan0",
     email: "",
     linkedin: "https://www.linkedin.com/in/tristan-goehring/",
@@ -84,9 +84,11 @@ const EthanBio =
   "Hello, I'm Ethan Ossana, a junior at Oregon State University studying both computer science and mechanical enigeering.";
 const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
+const jeremyBio = 
+  "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University."
+const MarBio = "Hi! My name is Marika Handa, and I am a second year ECE student at OSU. 
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
-const MarBio = "Hi! My name is Marika Handa, and I am a second year ECE student at OSU. 
 
 
 const memberData: MemberCardItem[] = [
@@ -156,7 +158,7 @@ const memberData: MemberCardItem[] = [
     image:
       "https://avatars.githubusercontent.com/u/183556701?s=400&u=1de971ca18de004f6311f6d5e989b073c4168a4d&v=4",
     github: "https://github.com/EthanHorizons",
-    linkedin: "www.linkedin.com/in/ethan-ossana",
+    linkedin: "https://www.linkedin.com/in/ethan-ossana",
     email: "ethanbenstar@gmail.com",
     biography: EthanBio,
   },
@@ -165,12 +167,28 @@ const memberData: MemberCardItem[] = [
     image: "https://avatars.githubusercontent.com/u/100104771?v=4",
     biography: harveyBio,
   },
-
-  name: "Marika Handa",
-  github: "https://github.com/ENGR-C0ffeee",
-  biography: MarBio, 
-
-  
+  {
+    name: "Marika Handa",
+    github: "https://github.com/ENGR-C0ffeee",
+    biography: MarBio, 
+  },
+  {
+    name: "Jeremy Lammon",
+    image: "https://avatars.githubusercontent.com/jeremy-lammon",
+    github: "https://github.com/jeremy-lammon",
+    linkedin: "https://www.linkedin.com/in/jeremy-lammon-41506a241/",
+    email: "lammonj@oregonstate.edu",
+    biography: jeremyBio,
+  },
+  {
+    name: "Daniel Tran",
+    image:
+      "",
+    github: "https://github.com/DT199012",
+    linkedin: "https://www.linkedin.com/in/quocnnam-daniel-tran",
+    email: "namdanieltran@gmail.com",
+    biography: "This member has no biography.",
+  }
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

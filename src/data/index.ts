@@ -67,7 +67,7 @@ const officerData: TeamCardItem[] = [
 ];
 
 const dylanBio =
-  "Hi! I'm Dylan! Junior here at Oregon State studying Computer Science with a focus in Computer Graphics and Games :)";
+  "Hi! I'm Dylan K., a Senior CS Student here at OSU. I'm interested in computer graphics and games. I love coffee, cooking, and photography!";
 const AdamBio =
   "Hello! My name is Adam Bobich. I'm from California and am currently a 2nd year Computer Science student at Oregon State.";
 const kevinRubioBio =
@@ -90,7 +90,7 @@ const memberData: MemberCardItem[] = [
   {
     name: "Dylan Keyhantaj",
     image:
-      "https://media.licdn.com/dms/image/v2/D4E03AQFAJMVfK-vkEw/profile-displayphoto-shrink_400_400/B4EZX_czWwG0Ag-/0/1743747495706?e=1750291200&v=beta&t=CQBWYYkIWlZySRB0el88-7GO-W4nMIe22JYLLHHEK6s",
+      "https://media.licdn.com/dms/image/v2/D4E03AQGWTFDbTLv9Og/profile-displayphoto-crop_800_800/B4EZe.YYJDHgAI-/0/1751245752381?e=1775088000&v=beta&t=YAIHBW4Fl9k5xVvOJCgY5mFOruiWXdmnlSyXxv__eR8",
     github: "https://github.com/slaiff",
     linkedin: "https://www.linkedin.com/in/dylan-keyhantaj/",
     other: "Personal Website Link (optional)",

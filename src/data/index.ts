@@ -29,7 +29,7 @@ const officerData: TeamCardItem[] = [
   {
     name: "Tyler Quach",
     role: "Secretary & Webmaster",
-    image: "tylerpfp.jpg",
+    image: "https://avatars.githubusercontent.com/u/158121390?v=4",
     github: "https://github.com/Splash791",
     linkedin: "https://github.com/Microchip-Cookies",
     email: "",

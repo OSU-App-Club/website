@@ -65,7 +65,7 @@ export const LeadershipTeamGrid = () => {
 export const MemberGrid = () => {
   return (
     <>
-      <div className="container">
+      <div className="container flex justify-center lg:w-[55%]">
         <ul className="flex gap-2 w-full justify-center flex-wrap">
           {memberData.map(
             ({

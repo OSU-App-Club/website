@@ -1,6 +1,6 @@
 # App Development Club Website
 
-Source code for the official website for the App Development Club at Oregon State University. It is built using [Astro](https://astro.build) and [Shadcn UI](https://ui.shadcn.com/). Our legacy website is still available at [osuapp.club](https://appdove.wixsite.com/club).
+Source code for the official website for the App Development Club at Oregon State University. It is built using [Astro](https://astro.build) and [Shadcn UI](https://ui.shadcn.com/). Our legacy website is still available at [osuappdev.club](https://www.osuappdev.club/).
 
 ![blog](public/preview.png)
 

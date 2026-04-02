@@ -22,7 +22,7 @@ const officerData: TeamCardItem[] = [
     role: "Vice President",
     image: "https://avatars.githubusercontent.com/u/93668156?v=4",
     github: "https://github.com/0Tristan0",
-    email: "",
+    email: "goehrint@oregonstate.edu",
     linkedin: "https://www.linkedin.com/in/tristan-goehring/",
     biography: tristanBio,
   },
@@ -62,28 +62,119 @@ const officerData: TeamCardItem[] = [
   },
 ];
 
-const beaverBio = "This is Beaver McBeaverson's biography.";
-// firstnameBio = "Your biography"
+const dylanBio =
+  "Hi! I'm Dylan! Junior here at Oregon State studying Computer Science with a focus in Computer Graphics and Games :)";
+const AdamBio =
+  "Hello! My name is Adam Bobich. I'm from California and am currently a 2nd year Computer Science student at Oregon State.";
+const kevinRubioBio =
+  "Hi my name is Kevin Rubio I am Sophomore majoring in Computer Science with a minor in mathematics. Some of my hobbies include hiking, weightlifting, and snowboarding. A fun fact about Richard Sherman at an airport";
+const chaseDbio =
+  "Hi! I'm Chase! I'm a second year computer science student at Oregon State University. Prompt engineer specialist.";
+const lukasBio =
+  "Ahoi 👋 I'm Lukas Werner, I'm a second year software engineering student at Oregon State University.";
+const harryBio =
+  "Hello! My name is Harry Yu, and I am currently a junior majoring in computer science at OSU. I have lived in Corvallis my whole life, and I love playing video games, running, listening to music, and watching the NBA. During this past fall and winter terms, I was fortunate enough to have worked as a SWE intern at a healthcare startup in San Francisco. I am excited to be back at OSU and be a part of the App Dev Club!";
+const EthanBio =
+  "Hello, I'm Ethan Ossana, a junior at Oregon State University studying both computer science and mechanical enigeering.";
+const harveyBio =
+  "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
+const jeremyBio = 
+  "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University."
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
 const memberData: MemberCardItem[] = [
   {
-    name: "Beaver McBeaverson",
-    image: "https://avatars.githubusercontent.com/u/158121390?v=4",
-    github: "https://github.com/sebat2004",
-    linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
-    email: "torresos@oregonstate.edu",
-    biography: beaverBio,
+    name: "Dylan Keyhantaj",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E03AQFAJMVfK-vkEw/profile-displayphoto-shrink_400_400/B4EZX_czWwG0Ag-/0/1743747495706?e=1750291200&v=beta&t=CQBWYYkIWlZySRB0el88-7GO-W4nMIe22JYLLHHEK6s",
+    github: "https://github.com/slaiff",
+    linkedin: "https://www.linkedin.com/in/dylan-keyhantaj/",
+    other: "Personal Website Link (optional)",
+    email: "dylan.keyhantaj@gmail.com",
+    biography: dylanBio,
   },
-  //   {
-  //     name: "Your Name",
-  //     image: "Image url/path",
-  //     github: "GitHub Link (optional)",
-  //     linkedin: "LinkedIn Link (optional)",
-  //     other: "Personal Website Link (optional)",
-  //     email: "Your email (optional)",
-  //     biography: firstnameBio,
-  //   }
+  {
+    name: "Adam Bobich",
+    image: "/adam.png",
+    github: "https://github.com/abobich675",
+    linkedin: "https://www.linkedin.com/in/adambobich/",
+    email: "bobicha@oregonstate.edu",
+    biography: AdamBio,
+  },
+  {
+    name: "Lukas Werner",
+    image: "https://avatars.githubusercontent.com/u/55150634?v=4",
+    github: "https://github.com/lukasmwerner",
+    linkedin: "https://www.linkedin.com/in/lukasmwerner/",
+    other: "https://lukasmwerner.com",
+    email: "wernerlu@oregonstate.edu",
+    biography: lukasBio,
+  },
+  {
+    name: "Kevin Rubio",
+    image: "/kevin_image.JPG",
+    github: "https://github.com/kevinru2023",
+    linkedin: "https://www.linkedin.com/in/kevin-rubio-851269236/",
+    email: "rubiok@oregonstate.edu",
+    biography: kevinRubioBio,
+  },
+  {
+    name: "Chase Dunn",
+    image:
+      "https://avatars.githubusercontent.com/u/194431855?s=400&u=a39753085c6a4650799897a210fe1e1a224e0946&v=4",
+    email: "dunnchas@oregonstate.edu",
+    biography: chaseDbio,
+  },
+  {
+    name: "Harry Yu",
+    image:
+      "https://media.licdn.com/dms/image/v2/D5603AQFdI-Kd-cOvFQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707326158067?e=1750291200&v=beta&t=Aq6Yix9r7PiLCn5JOfuZTgqKGRF9CY5rnjMp8HetbgQ",
+    github: "https://github.com/harry23yu/",
+    linkedin: "https://www.linkedin.com/in/harry23yu/",
+    email: "yuhar@oregonstate.edu",
+    biography: harryBio,
+  },
+  {
+    name: "Michael Omori",
+    image:
+      "https://avatars.githubusercontent.com/u/17519743?s=400&u=4db0e5aeae88eaff0735cf6d3aebfe9a3633868f&v=4",
+    github: "https://github.com/AstroBoy1",
+    linkedin: "https://www.linkedin.com/in/michaeljomori/",
+    other: "https://www.pawnpixels.com/",
+    email: "omorim@oregonstate.edu",
+    biography: omoriBio,
+  },
+  {
+    name: "Ethan Ossana",
+    image:
+      "https://avatars.githubusercontent.com/u/183556701?s=400&u=1de971ca18de004f6311f6d5e989b073c4168a4d&v=4",
+    github: "https://github.com/EthanHorizons",
+    linkedin: "https://www.linkedin.com/in/ethan-ossana",
+    email: "ethanbenstar@gmail.com",
+    biography: EthanBio,
+  },
+  {
+    name: "Harvey Ng",
+    image: "https://avatars.githubusercontent.com/u/100104771?v=4",
+    biography: harveyBio,
+  },
+  {
+    name: "Jeremy Lammon",
+    image: "https://avatars.githubusercontent.com/jeremy-lammon",
+    github: "https://github.com/jeremy-lammon",
+    linkedin: "https://www.linkedin.com/in/jeremy-lammon-41506a241/",
+    email: "lammonj@oregonstate.edu",
+    biography: jeremyBio,
+  },
+  {
+    name: "Daniel Tran",
+    image:
+      "",
+    github: "https://github.com/DT199012",
+    linkedin: "https://www.linkedin.com/in/quocnnam-daniel-tran",
+    email: "namdanieltran@gmail.com",
+    biography: "This member has no biography.",
+  }
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

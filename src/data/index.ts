@@ -1,34 +1,25 @@
 import type { MemberCardItem, ProjectCardItem, TeamCardItem } from "@/types";
 
-const sebastianBio = `Hey! My name is Sebastian Torresola, and I am currently a junior majoring in CS at OSU. I've lived in Arizona, Vancouver (BC), and Washington/Oregon for almost 7 years each. I really enjoy basketball, practicing piano, losing at poker, and playing video games with my friends that I’ve lost touch with after moving. Please feel free to reach out to me on my socials!`;
-const anthonyBio = `Hello! My name is Anthony Silva, and I am currently a double major student in computer science and mathematics at Oregon State University. Other than coding web and mobile applications, I like to study geography, go swimming, and play video games. Feel free to reach out to chat with me, whether it is about coding, academics, career prep, or whatever else that is going on!`;
 const tristanBio = "";
 const seanBio = "";
 const noamBio = "";
-const tylerBio = "Hi, I’m Tyler, a sophomore majoring in CS at OSU.  Some of my biggest passions include traveling, fitness, food and learning. Feel free to reach out to me through my socials. ";
+const tylerBio = "";
+const varlieBio = "";
+const milesBio = "";
 
 const officerData: TeamCardItem[] = [
   {
-    name: "Sebastian Torresola",
+    name: "Sean Gutmann",
     role: "President",
-    image: "/sebpfp.png",
-    github: "https://github.com/sebat2004",
-    linkedin: "https://www.linkedin.com/in/sebastian-torresola-7b3b3b1b3/",
-    email: "torresos@oregonstate.edu",
-    biography: sebastianBio,
-  },
-  {
-    name: "Anthony Silva",
-    role: "Vice President",
-    image: "/anthony.jpg",
-    github: "https://github.com/wreckinaj",
-    linkedin: "https://www.linkedin.com/in/anthony-silva-613165291/",
-    email: "silvanth@oregonstate.edu",
-    biography: anthonyBio,
+    image: "https://avatars.githubusercontent.com/u/70712778?v=4",
+    github: "https://github.com/SeanG-rsd",
+    linkedin: "https://www.linkedin.com/in/seangutmann/",
+    email: "",
+    biography: seanBio,
   },
   {
     name: "Tristan Goehring",
-    role: "Secretary",
+    role: "Vice President",
     image: "https://avatars.githubusercontent.com/u/93668156?v=4",
     github: "https://github.com/0Tristan0",
     email: "",
@@ -36,13 +27,30 @@ const officerData: TeamCardItem[] = [
     biography: tristanBio,
   },
   {
-    name: "Sean Gutmann",
-    role: "Webmaster",
-    image: "https://avatars.githubusercontent.com/u/70712778?v=4",
-    github: "https://github.com/SeanG-rsd",
-    linkedin: "https://www.linkedin.com/in/seangutmann/",
+    name: "Tyler Quach",
+    role: "Secretary & Webmaster",
+    image: "tylerpfp.jpg",
+    github: "https://github.com/Splash791",
+    linkedin: "https://github.com/Microchip-Cookies",
     email: "",
-    biography: seanBio,
+    biography: varlieBio,
+  },
+  {
+    name: "Valerie Armstrong",
+    role: "Treasurer",
+    image: "https://avatars.githubusercontent.com/u/123773975?v=4",
+    github: "https://github.com/Microchip-Cookies",
+    linkedin: "https://www.linkedin.com/in/valerie-armstrong-650954271/",
+    email: "quachty@oregonstate.edu",
+    biography: tylerBio,
+  },
+  {
+    name: "Miles Chase",
+    role: "Community Outreach",
+    image: "https://avatars.githubusercontent.com/u/39201587?v=4",
+    github: "https://github.com/bobjoerules",
+    email: "",
+    biography: milesBio,
   },
   {
     name: "Noam Yaffe",
@@ -51,15 +59,6 @@ const officerData: TeamCardItem[] = [
     github: "https://github.com/yaffenator",
     email: "",
     biography: noamBio,
-  },
-  {
-    name: "Tyler Quach",
-    role: "Community Outreach",
-    image: "tylerpfp.jpg",
-    github: "https://github.com/Splash791",
-    linkedin: "https://www.linkedin.com/in/tyler-quach-//",
-    email: "quachty@oregonstate.edu",
-    biography: tylerBio,
   },
 ];
 

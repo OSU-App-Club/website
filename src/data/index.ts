@@ -79,7 +79,10 @@ const EthanBio =
 const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
 const jeremyBio = 
-  "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University."
+  "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University.";
+const milesBio = 
+"Yo! I'm Miles, a freshman at Oregon State University studying Computer Science. I enjoy playing video games, hiking, filmmaking, and other things. I'm from the Beaverton Area and love to make random things while being creative.";
+
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
 const memberData: MemberCardItem[] = [
@@ -89,7 +92,6 @@ const memberData: MemberCardItem[] = [
       "https://media.licdn.com/dms/image/v2/D4E03AQGWTFDbTLv9Og/profile-displayphoto-crop_800_800/B4EZe.YYJDHgAI-/0/1751245752381?e=1775088000&v=beta&t=YAIHBW4Fl9k5xVvOJCgY5mFOruiWXdmnlSyXxv__eR8",
     github: "https://github.com/slaiff",
     linkedin: "https://www.linkedin.com/in/dylan-keyhantaj/",
-    other: "Personal Website Link (optional)",
     email: "dylan.keyhantaj@gmail.com",
     biography: dylanBio,
   },
@@ -128,7 +130,7 @@ const memberData: MemberCardItem[] = [
   {
     name: "Harry Yu",
     image:
-      "https://media.licdn.com/dms/image/v2/D5603AQFdI-Kd-cOvFQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707326158067?e=1750291200&v=beta&t=Aq6Yix9r7PiLCn5JOfuZTgqKGRF9CY5rnjMp8HetbgQ",
+      "/no-photo.png",
     github: "https://github.com/harry23yu/",
     linkedin: "https://www.linkedin.com/in/harry23yu/",
     email: "yuhar@oregonstate.edu",
@@ -168,12 +170,21 @@ const memberData: MemberCardItem[] = [
   },
   {
     name: "Daniel Tran",
-    image:
-      "",
+    image:"/no-photo.png",
     github: "https://github.com/DT199012",
     linkedin: "https://www.linkedin.com/in/quocnnam-daniel-tran",
     email: "namdanieltran@gmail.com",
     biography: "This member has no biography.",
+  }
+  ,
+  {
+    name: "Miles Chase",
+    image:"https://avatars.githubusercontent.com/bobjoerules",
+    other: "https://bobjoerules.com/",
+    github: "https://github.com/bobjoerules",
+    linkedin: "https://www.linkedin.com/in/miles-chase/",
+    email: "email@bobjoerules.com",
+    biography: milesBio,
   }
 ];
 

@@ -80,6 +80,8 @@ const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
 const jeremyBio = 
   "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University."
+const omoriBio =
+  "Hi I'm Michael. I'm a pHD student and I'm an incoming intern at Panasonic"
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
 const memberData: MemberCardItem[] = [

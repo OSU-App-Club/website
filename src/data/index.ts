@@ -84,6 +84,9 @@ const omoriBio =
   "Hi I'm Michael. I'm a pHD student and I'm an incoming intern at Panasonic"
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
 
+const marBio = 
+  "Hi! My name is Marika Handa, second year student at OSU and my major is ECE"; 
+
 const memberData: MemberCardItem[] = [
   {
     name: "Dylan Keyhantaj",
@@ -159,6 +162,12 @@ const memberData: MemberCardItem[] = [
     name: "Harvey Ng",
     image: "https://avatars.githubusercontent.com/u/100104771?v=4",
     biography: harveyBio,
+  },
+  {
+    name: "Marika Handa",
+    github: "https://github.com/ENGR-C0ffeee", 
+    biography: marBio, 
+    image: "https://avatars.githubusercontent.com/u/233378920?s=80&v=4",
   },
   {
     name: "Jeremy Lammon",

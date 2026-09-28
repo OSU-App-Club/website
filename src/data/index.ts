@@ -6,6 +6,7 @@ const noamBio = "";
 const tylerBio = "";
 const varlieBio = "";
 const milesBio = "";
+const codyPerryBio = "";
 
 const officerData: TeamCardItem[] = [
   {
@@ -169,6 +170,8 @@ const memberData: MemberCardItem[] = [
     linkedin: "www.linkedin.com/in/cody-perry-9470851ba",
     email: "codyperry04@gmail.com",
     biography: codyPerryBio,
+  },
+  {
     name: "Marika Handa",
     github: "https://github.com/ENGR-C0ffeee", 
     biography: marBio, 

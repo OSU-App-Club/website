@@ -16,7 +16,7 @@ Whether you're a seasoned developer or just getting started, this event is a gre
 ## Quick Links
 
 - [Join the DevPost](https://purs-appclub-hackathon.devpost.com/) (required)
-- [Join the Discord to find a team](https://discord.gg/eae2rdQDPA) (optional, but recommended)
+- [Join the Discord to find a team](https://discord.gg/fJpwFbKDMz) (optional, but recommended)
 
 ### Event Details
 
@@ -86,7 +86,7 @@ No, this event is exclusive to Oregon State University students.
 
 ### Can I participate if I don't have a team?
 
-Yes! We encourage you to join the [Discord](https://discord.gg/eae2rdQDPA) to find a team.
+Yes! We encourage you to join the [Discord](https://discord.gg/fJpwFbKDMz) to find a team.
 
 ### Can I submit a project that I've already started?
 
@@ -102,6 +102,6 @@ Yes, you can use third-party APIs to enhance your project.
 
 ### What if I have more questions?
 
-Please reach out to us on our [Discord](https://discord.gg/eae2rdQDPA)
+Please reach out to us on our [Discord](https://discord.gg/fJpwFbKDMz)
 
 We can't wait to see what you build! 🚀

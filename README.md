@@ -85,7 +85,7 @@ npm run dev
 
 ## Contribution
 
-1. Join our [Discord server](https://discord.gg/eae2rdQDPA)
+1. Join our [Discord server](https://discord.gg/fJpwFbKDMz)
 2. Join the OSU-App-Club GitHub organization
 3. Clone the repository
 4. Create a new branch

@@ -1,11 +1,11 @@
 import type { MemberCardItem, ProjectCardItem, TeamCardItem } from "@/types";
 
-const tristanBio = "";
-const seanBio = "";
-const noamBio = "";
+const tristanBio = "What’s up! My name is Tristan Goehring, and I am a CS student in the systems option at OSU. I love working out at the gym, playing golf with my friends, and basketball. My favorite academic subjects outside of CS are math (especially vector calculus) and anything with problem solving.";
+const seanBio = "Hello! My name is Sean Gutmann, and I am currently majoring in CS Systems at OSU. I'm from Seattle, WA. I really enjoy playing soccer, spikeball, and frisbee with friends. I also enjoy coding websites and mobile apps that I can use.";
+const noamBio = "Hey! My name is Noam, and I’m a computer science major with a focus on computer systems. I was born in Israel, and relocated to Portland, Oregon more than a decade ago. I love thrifting, listening to music, and spending time with my family and friends. Feel free to reach out on any of my socials if you have any questions about the club, or if you just want to say hi!";
 const tylerBio = "";
 const varlieBio = "";
-const milesBio = "";
+const milesBio = "Yo! I'm Miles, a CS student at Oregon State University. I enjoy playing video games, hiking, filmmaking, and other things. I'm from the Beaverton Area and love to make random things while being creative.";
 const codyPerryBio = "";
 
 const officerData: TeamCardItem[] = [
@@ -34,7 +34,7 @@ const officerData: TeamCardItem[] = [
     github: "https://github.com/Splash791",
     linkedin: "https://github.com/Microchip-Cookies",
     email: "",
-    biography: varlieBio,
+    biography: tylerBio,
   },
   {
     name: "Valerie Armstrong",
@@ -43,7 +43,7 @@ const officerData: TeamCardItem[] = [
     github: "https://github.com/Microchip-Cookies",
     linkedin: "https://www.linkedin.com/in/valerie-armstrong-650954271/",
     email: "quachty@oregonstate.edu",
-    biography: tylerBio,
+    biography: varlieBio,
   },
   {
     name: "Miles Chase",
@@ -52,14 +52,6 @@ const officerData: TeamCardItem[] = [
     github: "https://github.com/bobjoerules",
     email: "",
     biography: milesBio,
-  },
-  {
-    name: "Noam Yaffe",
-    role: "Community Outreach",
-    image: "https://avatars.githubusercontent.com/u/185013802?v=4",
-    github: "https://github.com/yaffenator",
-    email: "",
-    biography: noamBio,
   },
 ];
 
@@ -79,20 +71,18 @@ const EthanBio =
   "Hello, I'm Ethan Ossana, a junior at Oregon State University studying both computer science and mechanical enigeering.";
 const harveyBio =
   "Hi everyone, I'm a Post-Bacc student majoring in Computer Science at Oregon State University";
-const jeremyBio = 
+const jeremyBio =
   "Hi, I'm Jeremy. I'm a transfer student from Washington studying Computer Science at Oregon State University."
 const omoriBio =
   "Hi I'm Michael. I'm a pHD student and I'm an incoming intern at Panasonic"
+const marBio =
+  "Hi! My name is Marika Handa, second year student at OSU and my major is ECE"
 // In case of a first name conflict, do firstnameLastnameBio = "Your biography"
-
-const marBio = 
-  "Hi! My name is Marika Handa, second year student at OSU and my major is ECE"; 
-
 const memberData: MemberCardItem[] = [
   {
     name: "Dylan Keyhantaj",
     image:
-      "https://media.licdn.com/dms/image/v2/D4E03AQGWTFDbTLv9Og/profile-displayphoto-crop_800_800/B4EZe.YYJDHgAI-/0/1751245752381?e=1775088000&v=beta&t=YAIHBW4Fl9k5xVvOJCgY5mFOruiWXdmnlSyXxv__eR8",
+      "https://avatars.githubusercontent.com/u/165961740?v=4",
     github: "https://github.com/slaiff",
     linkedin: "https://www.linkedin.com/in/dylan-keyhantaj/",
     email: "dylan.keyhantaj@gmail.com",
@@ -133,7 +123,7 @@ const memberData: MemberCardItem[] = [
   {
     name: "Harry Yu",
     image:
-      "/no-photo.png",
+      "https://avatars.githubusercontent.com/u/53875015?v=4",
     github: "https://github.com/harry23yu/",
     linkedin: "https://www.linkedin.com/in/harry23yu/",
     email: "yuhar@oregonstate.edu",
@@ -142,7 +132,7 @@ const memberData: MemberCardItem[] = [
   {
     name: "Michael Omori",
     image:
-      "https://avatars.githubusercontent.com/u/17519743?s=400&u=4db0e5aeae88eaff0735cf6d3aebfe9a3633868f&v=4",
+      "https://avatars.githubusercontent.com/u/17519743?v=4",
     github: "https://github.com/AstroBoy1",
     linkedin: "https://www.linkedin.com/in/michaeljomori/",
     other: "https://www.pawnpixels.com/",
@@ -152,7 +142,7 @@ const memberData: MemberCardItem[] = [
   {
     name: "Ethan Ossana",
     image:
-      "https://avatars.githubusercontent.com/u/183556701?s=400&u=1de971ca18de004f6311f6d5e989b073c4168a4d&v=4",
+      "https://avatars.githubusercontent.com/u/183556701?v=4",
     github: "https://github.com/EthanHorizons",
     linkedin: "https://www.linkedin.com/in/ethan-ossana",
     email: "ethanbenstar@gmail.com",
@@ -173,8 +163,8 @@ const memberData: MemberCardItem[] = [
   },
   {
     name: "Marika Handa",
-    github: "https://github.com/ENGR-C0ffeee", 
-    biography: marBio, 
+    github: "https://github.com/ENGR-C0ffeee",
+    biography: marBio,
     image: "https://avatars.githubusercontent.com/u/233378920?s=80&v=4",
   },
   {
@@ -187,7 +177,7 @@ const memberData: MemberCardItem[] = [
   },
   {
     name: "Daniel Tran",
-    image:"/no-photo.png",
+    image: "https://avatars.githubusercontent.com/u/119844119?v=4",
     github: "https://github.com/DT199012",
     linkedin: "https://www.linkedin.com/in/quocnnam-daniel-tran",
     email: "namdanieltran@gmail.com",
@@ -196,13 +186,52 @@ const memberData: MemberCardItem[] = [
   ,
   {
     name: "Miles Chase",
-    image:"https://avatars.githubusercontent.com/bobjoerules",
+    image: "https://avatars.githubusercontent.com/bobjoerules",
     other: "https://bobjoerules.com/",
     github: "https://github.com/bobjoerules",
     linkedin: "https://www.linkedin.com/in/miles-chase/",
     email: "email@bobjoerules.com",
     biography: milesBio,
-  }
+  },
+  {
+    name: "Noam Yaffe",
+    image: "https://avatars.githubusercontent.com/u/185013802?v=4",
+    github: "https://github.com/yaffenator",
+    email: "",
+    biography: noamBio,
+  },
+  {
+    name: "Sean Gutmann",
+    image: "https://avatars.githubusercontent.com/u/70712778?v=4",
+    github: "https://github.com/SeanG-rsd",
+    linkedin: "https://www.linkedin.com/in/seangutmann/",
+    email: "",
+    biography: seanBio,
+  },
+  {
+    name: "Tristan Goehring",
+    image: "https://avatars.githubusercontent.com/u/93668156?v=4",
+    github: "https://github.com/0Tristan0",
+    email: "goehrint@oregonstate.edu",
+    linkedin: "https://www.linkedin.com/in/tristan-goehring/",
+    biography: tristanBio,
+  },
+  {
+    name: "Tyler Quach",
+    image: "https://avatars.githubusercontent.com/u/158121390?v=4",
+    github: "https://github.com/Splash791",
+    linkedin: "https://github.com/Microchip-Cookies",
+    email: "",
+    biography: tylerBio,
+  },
+  {
+    name: "Valerie Armstrong",
+    image: "https://avatars.githubusercontent.com/u/123773975?v=4",
+    github: "https://github.com/Microchip-Cookies",
+    linkedin: "https://www.linkedin.com/in/valerie-armstrong-650954271/",
+    email: "quachty@oregonstate.edu",
+    biography: varlieBio,
+  },
 ];
 
 const pastProjectsData: ProjectCardItem[] = [

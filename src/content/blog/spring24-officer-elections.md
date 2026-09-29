@@ -13,7 +13,7 @@ Welcome back to our blog, App Developers! We are electing new officers for the 2
 
 ##### If you want to learn more about our club before running for an officer position, check out the following links:
 
-- Join our [Discord](https://discord.gg/eae2rdQDPA)
+- Join our [Discord](https://discord.gg/fJpwFbKDMz)
 - Check out our [About Page](https://osuapp.club/about)
 
 ## Event Details

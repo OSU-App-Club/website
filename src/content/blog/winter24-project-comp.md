@@ -17,7 +17,7 @@ Here's all the details you need to know about the competition:
 
 - [Join the DevPost](https://app-development-club-hackathon.devpost.com/) (required)
 - [Team Registration Form](https://docs.google.com/forms/d/e/1FAIpQLScEA1ONwbG7ifpzT6cpKZTQXlQUFPfr4k12mrwCRsROgIsQUQ/viewform) (required)
-- [Join the Discord to find a team](https://discord.gg/eae2rdQDPA) (optional, but recommended)
+- [Join the Discord to find a team](https://discord.gg/fJpwFbKDMz) (optional, but recommended)
 
 ## Details
 

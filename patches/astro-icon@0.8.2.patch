@@ -1,0 +1,25 @@
+diff --git a/lib/Icon.astro b/lib/Icon.astro
+index cfd0d9cb0dd5ee71b3e34f885e7df70b418a99be..65c5b85382bea3439818cc86a46204af4f42d1f7 100644
+--- a/lib/Icon.astro
++++ b/lib/Icon.astro
+@@ -1,6 +1,6 @@
+ ---
+ import load, { fallback, normalizeProps } from './utils.ts';
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let { name, pack, title, optimize = true, class: className, ...inputProps } = Astro.props;
+ let props = {};
+diff --git a/lib/Sprite.astro b/lib/Sprite.astro
+index f64c5d67111bb61274d5756929374f768aff872b..305697faca9ae450554ccbfc3c739469d7c1eabc 100644
+--- a/lib/Sprite.astro
++++ b/lib/Sprite.astro
+@@ -2,7 +2,7 @@
+ import { SPRITESHEET_NAMESPACE } from './constants';
+ import { normalizeProps } from './utils.ts';
+ import { trackSprite } from './context.ts';
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let { name, pack, title, class: className, x, y, ...inputProps } = Astro.props;
+ const props = normalizeProps(inputProps);
